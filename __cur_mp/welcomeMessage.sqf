@@ -11,22 +11,22 @@ _onScreenTime = 7;
 
 sleep 15; //Wait in seconds before the credits start after player is in-game
 
-_role1 = "Witamy na Serwerze";
-_role1names = ["World Life Polska"];
-_role2 = "Administracja:";
-_role2names = ["Lester  , Ma Ro, "];
-_role3 = "Podstawowe zasady!";
-_role3names = ["Zachowajcie RP!"];
+_role1 = "Witaj na nowej wersji";
+_role1names = ["NIESPODZIANEK"];
+_role2 = "Admini:";
+_role2names = ["Daktyl , Acid "];
+_role3 = "Pamiętaj o RP!";
+_role3names = ["A napewno bedziesz dobrze sie bawił!"];
 _role4 = "TeamSpeak3:";
-_role4names = ["5.196.210.216:10077"];
-_role5 = "Znalazles blad serwera ?";
-_role5names = ["Napisz do nas!"];
+_role4names = ["149.56.251.45:10354"];
+_role5 = "Nie oszukuj ?";
+_role5names = ["Chcesz Rangę napisz do nas!"];
 _role6 = "Restarty serwera";
 _role6names = ["00:00, 06:00, 12:00, 18:00"];
-_role7 = "Update!";
-_role7names = ["Ekonomia, licencje, rebelka oraz medycy!"];
-_role8 = "Zyczymy milej gry!";
-_role8names = ["Zielona strefa zakaz strzelania, wchodzenia do nieswoich pojazdow, powalania oraz okradania!"];
+_role7 = "Rekrutacja na Policje, Medyka!";
+_role7names = ["Otwarta"];
+_role8 = "Zyczymy milej zabawy!";
+_role8names = ["Ten serwer jest dla Was!"];
 
 
 {
