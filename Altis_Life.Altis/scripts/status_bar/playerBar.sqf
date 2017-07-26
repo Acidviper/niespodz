@@ -15,7 +15,7 @@ systemChat format["Ładowanie paska statusu....", _rscLayer];
 	sleep 3;
 	_counter = 180;
 	Server_Session = 21600;
-	_statusText = "5.196.210.216:10077"; 
+	_statusText = "stabilne.it"; 
 	
 	while {true} do 
 	{
