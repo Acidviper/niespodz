@@ -10,7 +10,7 @@ if(life_cash < 50000) exitWith {hint "Nie masz przy sobie $50,000!!";};
 _teleMan = _this select 3;
 
 _action = [
-			"Czy jesteś pewien, że chcesz wsiąść do autobusu ?",
+			"Wycieczka do innego miasta chcesz? ?",
 			"Podróz Autobusem",
 			"Tak",
 			"Nie"
@@ -79,5 +79,5 @@ if(_action) then {
 			};
 		};
 } else {
-	hint"Dziękujemy za korzystanie z Publicznego Transportu!";
+	hint"No i koniec !";
 };
