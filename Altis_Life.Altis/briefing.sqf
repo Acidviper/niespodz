@@ -21,7 +21,7 @@ player createDiarySubject ["credits","Credits"];
 		[
 			"Arma Life",
 				"
-					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
+					rmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
 				"
 		]
 	];
