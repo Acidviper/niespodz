@@ -127,7 +127,7 @@ class Clothing {
             { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_CombatUniform_mcam", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Soldier_F", "", 1000, { "life_coplevel", "SCALAR", -1 } },
-            { "U_B_FullGhillie_ard", "", 1000, { "life_coplevel", "SCALAR", 10 } },
+            { "U_B_FullGhillie_ard", "", 1000, { "life_coplevel", "SCALAR", 7 } },
             { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", -1 } }            
         };
         headgear[] = {
