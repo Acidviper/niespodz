@@ -826,7 +826,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "jurassicpark", "civ", {
                 "textures\Cywile\jurassicpark_suv.paa"
             } },
-            { "Cwaniak", "civ", {
+            { "Klaudia", "civ", {
                 "textures\Cywile\klA.suv.paa"
             } },
             { "Policja", "cop", {
