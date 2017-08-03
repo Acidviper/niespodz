@@ -83,7 +83,7 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 50000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_fee = 20000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
    /* Paycheck & Bank System Configurations */
     bank_cop = 50000; //Amount of cash in bank for new cops
@@ -147,50 +147,50 @@ class Life_Settings {
     crimes[] = {
         {"STR_Crime_187V","150000","187V"}, //Zabójstwo przy użyciu pojazdów
         {"STR_Crime_187","300000","187"}, //Zabójstwo
-        {"STR_Crime_901","1000000","901"},
-        {"STR_Crime_215","50000","215"},
-        {"STR_Crime_213","75000","213"},
+        {"STR_Crime_901","50000","901"},
+        {"STR_Crime_215","55000","215"},
+        {"STR_Crime_213","70000","213"},
         {"STR_Crime_211","100000","211"},
-        {"STR_Crime_207","500000","207"},
-        {"STR_Crime_207A","250000","207A"},
+        {"STR_Crime_207","260000","207"},
+        {"STR_Crime_207A","150000","207A"},
         {"STR_Crime_390","100000","390"},
         {"STR_Crime_487","150000","487"},
         {"STR_Crime_488","75000","488"},
         {"STR_Crime_480","20000","480"},
-        {"STR_Crime_481","200000","481"},
-        {"STR_Crime_482","30000","482"},
+        {"STR_Crime_481","130000","481"},
+        {"STR_Crime_482","50000","482"},
         {"STR_Crime_483","200000","483"},
         {"STR_Crime_459","100000","459"},
-        {"STR_Crime_666","200","666"},
-        {"STR_Crime_667","400000","667"},
-        {"STR_Crime_668","20000","668"},
+        {"STR_Crime_666","120000","666"},
+        {"STR_Crime_667","200000","667"},
+        {"STR_Crime_668","50000","668"},
         {"STR_Crime_919","80000","919"},
         {"STR_Crime_919A","80000","919A"},
         {"STR_Crime_1","5000","1"},
-        {"STR_Crime_2","30000","2"},
-        {"STR_Crime_3","40000","3"},
-        {"STR_Crime_4","50000","4"},
-        {"STR_Crime_5","25000","5"},
+        {"STR_Crime_2","3000","2"},
+        {"STR_Crime_3","4000","3"},
+        {"STR_Crime_4","5000","4"},
+        {"STR_Crime_5","2500","5"},
         {"STR_Crime_6","5000","6"},
-        {"STR_Crime_7","10000","7"},
-        {"STR_Crime_8","200000","8"},
-        {"STR_Crime_9","70000","9"},
-        {"STR_Crime_10","90000","10"},
-        {"STR_Crime_11","300000","11"},
-        {"STR_Crime_12","150000","12"},
-        {"STR_Crime_13","20000","13"},
-        {"STR_Crime_14","20000","14"},
+        {"STR_Crime_7","2000","7"},
+        {"STR_Crime_8","20000","8"},
+        {"STR_Crime_9","30000","9"},
+        {"STR_Crime_10","45000","10"},
+        {"STR_Crime_11","100000","11"},
+        {"STR_Crime_12","185000","12"},
+        {"STR_Crime_13","5000","13"},
+        {"STR_Crime_14","25000","14"},
         {"STR_Crime_15","60000","15"},
         {"STR_Crime_16","10000","16"},
-        {"STR_Crime_17","20000","17"},
-        {"STR_Crime_18","50000","18"},
-        {"STR_Crime_19","20000","19"},
-        {"STR_Crime_20","20000","20"},
-        {"STR_Crime_21","40000","21"},
-        {"STR_Crime_22","100000","22"},
-        {"STR_Crime_23","500000","23"},
-        {"STR_Crime_24","300000","24"},
-        {"STR_Crime_25","400000","25"}
+        {"STR_Crime_17","15000","17"},
+        {"STR_Crime_18","10000","18"},
+        {"STR_Crime_19","15000","19"},
+        {"STR_Crime_20","5000","20"},
+        {"STR_Crime_21","10000","21"},
+        {"STR_Crime_22","800000","22"},
+        {"STR_Crime_23","350000","23"},
+        {"STR_Crime_24","150000","24"},
+        {"STR_Crime_25","180000","25"}
     };
 };
 

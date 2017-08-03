@@ -124,11 +124,11 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
-            { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_CombatUniform_mcam", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Soldier_F", "", 1000, { "life_coplevel", "SCALAR", -1 } },
-            { "U_B_FullGhillie_ard", "", 1000, { "life_coplevel", "SCALAR", 7 } },
-            { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", -1 } }            
+            { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 2 } },
+            { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_FullGhillie_ard", "", 1000, { "life_coplevel", "SCALAR", 7 } }           
         };
         headgear[] = {
             { "NONE", "Usuń Czapkę", 0, { "", "", -1 } },
@@ -141,8 +141,8 @@ class Clothing {
             { "H_HelmetB_sand", "", 100, { "life_coplevel", "SCALAR", 6 } },
             { "H_HelmetSpecB_blk", "", 100, { "life_coplevel", "SCALAR", 6 } },
             { "H_Beret_02", "", 100, { "life_coplevel", "SCALAR", 6 } },
-            { "H_CrewHelmetHeli_B", "", 100, { "life_coplevel", "SCALAR", 8 } },
-            { "H_Beret_Colonel", "", 100, { "life_coplevel", "SCALAR", 10 } }
+            { "H_CrewHelmetHeli_B", "", 100, { "life_coplevel", "SCALAR", 7 } },
+            { "H_Beret_Colonel", "", 100, { "life_coplevel", "SCALAR", 7 } }
         };
         goggles[] = {
             { "NONE", "Usuń Okulary", 0, { "", "", -1 } },
@@ -167,7 +167,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Usuń Plecak", 0, { "", "", -1 } },
-			{ "B_UAV_01_backpack_F", "", 500, { "life_coplevel", "SCALAR", 10 } },
+			{ "B_UAV_01_backpack_F", "", 500, { "life_coplevel", "SCALAR", 5 } },
 			{ "B_AssaultPack_blk", "", 500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 1000, { "", "", -1 } },
             { "B_Carryall_oucamo", "", 2000, { "", "", -1 } },
@@ -183,7 +183,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
             { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 2 } },
-            { "U_B_CombatUniform_mcam_vest", "", 1000, { "life_coplevel", "SCALAR", -1 } },
+            { "U_B_CombatUniform_mcam_vest", "Pol", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_CombatUniform_mcam", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Soldier_F", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", -1 } },
@@ -238,11 +238,11 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
-            { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_CombatUniform_mcam_vest", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_CombatUniform_mcam", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Soldier_F", "", 1000, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", -1 } },
+			{ "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 2 } },
              { "U_B_GhillieSuit", "Ghillie BOA", 1000, { "life_coplevel", "SCALAR", 5 } }
         };
         headgear[] = {
@@ -711,6 +711,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam", "WP", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -727,7 +728,6 @@ class Clothing {
 			{ "U_B_CTRG_2", "", 20000, { "", "", -1 } },
 			{ "U_B_CTRG_3", "", 20000, { "", "", -1 } },
 			{ "U_O_SpecopsUniform_ocamo", "", 35000, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
 	        { "U_O_GhillieSuit", "", 75000, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 75000, { "", "", -1 } },
             { "U_B_FullGhillie_ard", "", 150000, { "", "", -1 } },
@@ -802,6 +802,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -818,7 +819,6 @@ class Clothing {
             { "U_B_CTRG_2", "", 20000, { "", "", -1 } },
             { "U_B_CTRG_3", "", 20000, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "", 35000, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_O_GhillieSuit", "", 75000, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 75000, { "", "", -1 } },
             { "U_B_FullGhillie_ard", "", 150000, { "", "", -1 } },
@@ -891,6 +891,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -907,7 +908,6 @@ class Clothing {
             { "U_B_CTRG_2", "", 20000, { "", "", -1 } },
             { "U_B_CTRG_3", "", 20000, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "", 35000, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_O_GhillieSuit", "", 75000, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 75000, { "", "", -1 } },
             { "U_B_FullGhillie_ard", "", 150000, { "", "", -1 } },
@@ -982,6 +982,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1073,6 +1074,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1164,6 +1166,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1256,6 +1259,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1348,6 +1352,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1440,6 +1445,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1532,6 +1538,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1624,6 +1631,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 20000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 20000, { "", "", -1 } },
@@ -1716,6 +1724,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 55000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 15000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 15000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 15000, { "", "", -1 } },
@@ -1808,6 +1817,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 9500, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 10000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 10000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 10000, { "", "", -1 } },
@@ -1900,6 +1910,7 @@ class c_don3 {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 7500, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 5000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 5000, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 5000, { "", "", -1 } },
@@ -1991,6 +2002,7 @@ class c_don3 {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "", 5500, { "", "", -1 } },
             { "U_I_C_Soldier_Para_1_F", "", 3500, { "", "", -1 } },
             { "U_I_C_Soldier_Para_2_F", "", 3500, { "", "", -1 } },
             { "U_I_C_Soldier_Para_3_F", "", 3500, { "", "", -1 } },

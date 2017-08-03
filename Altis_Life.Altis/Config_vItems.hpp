@@ -375,7 +375,7 @@ class VirtualItems {
         displayName = "STR_Item_StorageBS";
         weight = 5;
         buyPrice = 500000;
-        sellPrice = -1;
+        sellPrice = 1;
         illegal = false;
         edible = -1;
         icon = "icons\ico_storageSmall.paa";
@@ -386,7 +386,7 @@ class VirtualItems {
         displayName = "STR_Item_StorageBL";
         weight = 10;
         buyPrice = 1000000;
-        sellPrice = -1;
+        sellPrice = 1;
         illegal = false;
         edible = -1;
         icon = "icons\ico_storageBig.paa";

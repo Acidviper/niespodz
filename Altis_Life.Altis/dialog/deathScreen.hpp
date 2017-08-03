@@ -262,7 +262,7 @@ class DeathScreen
 		{
 			idc = 7303;
 			font = "PuristaLight";
-			text = "Wezwij Medyka"; //--- ToDo: Localize;
+			text = "Wezwij Med."; //--- ToDo: Localize;
 			x = 0.546407 * safezoneW + safezoneX;
 			y = 0.830348 * safezoneH + safezoneY;
 			w = 0.0721875 * safezoneW;

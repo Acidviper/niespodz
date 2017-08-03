@@ -4,7 +4,7 @@ disableChannels[] = {
   {2, true, true} // Command
 };
 
-#include "infiSTAR_AdminMenu.hpp"
+
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
@@ -341,3 +341,7 @@ class CfgNotifications
 		priority = 5;
 	};
 };
+
+disableChannels[]={{0, true, true},{1, false, true},{2, true, true},{3, false, false},{4, false, false},{5, false, false},{6, true, true}};
+
+#include "infiSTAR_AdminMenu.hpp"

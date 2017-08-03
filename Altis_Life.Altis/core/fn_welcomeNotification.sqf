@@ -27,11 +27,11 @@ _text2 = _display displayCtrl 1102;
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\logo.jpg' /></t><br /><br />";
 _message = _message + "WWW:<br />";
-_message = _message + " <a href='http://n.ct8.pl/' color='#56BDD6'>Niespodzianki</a> - Nasze Forum.<br />";
+_message = _message + " <a href='http://aln.ct8.pl/' color='#56BDD6'>Niespodzianki</a> - Nasze Forum.<br />";
 _message = _message + "Adres Teamspeak'a: stabilne.it<br /><br />";
 _message = _message + "Changelog:<br />";
-_message = _message + "- MediKit dostepny w markecie ( umożliwia podniesienie cywila przez innego cywila gdy na serwerze nie ma medyków )<br />";
-_message = _message + "- Nowy wygląd trunk ( menu pod t w pojeździe )<br />";
+_message = _message + "- Rekrutacja na policje otwarta<br />";
+_message = _message + "- Rekrutacja na medyka otwarta<br />";
 
 //Fill only the first text
 _text1 ctrlSetStructuredText (parseText _message);
