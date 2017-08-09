@@ -1,3 +1,4 @@
+
 disableChannels[] = {
   {0, true, true}, // Global
   {1, false, true}, // Side
@@ -9,6 +10,7 @@ disableChannels[] = {
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
 #include "CHVD\dialog.hpp"
+
 
 class CfgServer {
 	DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
@@ -342,6 +344,6 @@ class CfgNotifications
 	};
 };
 
-disableChannels[]={{0, true, true},{1, false, true},{2, true, true},{3, false, false},{4, false, false},{5, false, false},{6, true, true}};
+
 
 #include "infiSTAR_AdminMenu.hpp"
