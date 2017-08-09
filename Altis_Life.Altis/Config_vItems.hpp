@@ -706,7 +706,7 @@ class VirtualItems {
     class heroin_unprocessed {
         variable = "heroinUnprocessed";
         displayName = "STR_Item_HeroinU";
-        weight = 4;
+        weight = 5;
         buyPrice = -1;
         sellPrice = -1;
         illegal = true;
@@ -718,7 +718,7 @@ class VirtualItems {
     class heroin_processed {
         variable = "heroinProcessed";
         displayName = "STR_Item_HeroinP";
-        weight = 5;
+        weight = 4;
         buyPrice = -1;
         sellPrice = 12000;
         illegal = true;
@@ -729,7 +729,7 @@ class VirtualItems {
     class cannabis {
         variable = "cannabis";
         displayName = "STR_Item_Cannabis";
-        weight = 3;
+        weight = 5;
         buyPrice = -1;
         sellPrice = -1;
         illegal = true;
@@ -741,7 +741,7 @@ class VirtualItems {
     class marijuana {
         variable = "marijuana";
         displayName = "STR_Item_Marijuana";
-        weight = 5;
+        weight = 3;
         buyPrice = -1;
         sellPrice = 9000;
         illegal = true;
@@ -752,7 +752,7 @@ class VirtualItems {
     class cocaine_unprocessed {
         variable = "cocaineUnprocessed";
         displayName = "STR_Item_CocaineU";
-        weight = 3;
+        weight = 6;
         buyPrice = -1;
         sellPrice = -1;
         illegal = true;
@@ -764,7 +764,7 @@ class VirtualItems {
     class cocaine_processed {
         variable = "cocaineProcessed";
         displayName = "STR_Item_CocaineP";
-        weight = 5;
+        weight = 4;
         buyPrice = -1;
         sellPrice = 14000;
         illegal = true;
