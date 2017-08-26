@@ -23,7 +23,7 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			{ "hgun_Pistol_heavy_01_F", "", 15000, -1 },
-			{ "SMG_01_F", "", 65000, -1 },
+			{ "SMG_01_F", "", 80000, -1 },
 
 			{ "Binocular", "", 400, -1 },
             { "ItemGPS", "", 200, -1 },

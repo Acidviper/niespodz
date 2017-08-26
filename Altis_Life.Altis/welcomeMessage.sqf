@@ -24,7 +24,7 @@ _role5names = ["Chcesz Rangę napisz do nas!"];
 _role6 = "Restarty serwera";
 _role6names = ["00:00, 06:00, 12:00, 18:00"];
 _role7 = "Żółta strefa całkowity zakaz posiadania długiej broni!";
-_role7names = ["Otwarta"];
+_role7names = ["!!!!!!"];
 _role8 = "Zyczymy milej zabawy!";
 _role8names = ["Ten serwer jest dla Was!"];
 

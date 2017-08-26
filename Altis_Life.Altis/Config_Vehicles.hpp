@@ -916,7 +916,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "textures\Policja\cop_hunter1.paa",
                 "textures\Policja\cop_hunter2.paa"
             } },
-			{ "Donator", "don3", {
+			{ "ADmina", "heda", {
                 "textures\hunter.paa",
                 "textures\hunter1.paa"
             } }
@@ -980,7 +980,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Transport_01_F {
         vItemSpace = 150;
         licenses[] = { {""}, {"license_cop_transport2","license_cop_transport3"}, {""}, {""} };
-        price = 150000;
+        price = 2500000;
         textures[] = {
             { "Policja", "cop", {
                 "textures\Policja\ghosthawk_01.paa",

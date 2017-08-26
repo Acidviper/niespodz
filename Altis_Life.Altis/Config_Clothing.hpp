@@ -2155,8 +2155,7 @@ class c_don3 {
         side = "civ";
         uniforms[] = {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
-            { "U_C_Scientist", "Kombinezon na promieniowanie", 15000, { "", "", -1 } },
-			{ "C_Soldier_VR_F", "Kombinezon fajności", 9500000, { "", "", -1 } }
+            { "U_C_Scientist", "Kombinezon na promieniowanie", 65000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Usuń Czapkę", 0, { "", "", -1 } }
