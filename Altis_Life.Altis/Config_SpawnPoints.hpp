@@ -43,7 +43,7 @@ class CfgSpawnPoints {
         };
 
         class Paros {
-            displayName = "Paros";
+            displayName = "Oreocastro";
             spawnMarker = "civ_spawn_5";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             license[] = { "", true };
@@ -59,7 +59,7 @@ class CfgSpawnPoints {
         };
 
         class Donator1 {
-            displayName = "Klub Myśliwski";
+            displayName = "Klub MyśliwskiVIP";
             spawnMarker = "don_spawn";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             license[] = { "don1", true };
@@ -67,7 +67,7 @@ class CfgSpawnPoints {
         };
 
         class Donator2 {
-            displayName = "Klub Myśliwski";
+            displayName = "Klub MyśliwskiVIP";
             spawnMarker = "don_spawn";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             license[] = { "don2", true };
@@ -75,14 +75,14 @@ class CfgSpawnPoints {
         };
 
         class Donator3 {
-            displayName = "Klub Myśliwski";
+            displayName = "Klub MyśliwskiVIP";
             spawnMarker = "don_spawn";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             license[] = { "don3", true };
             level[] = { "", "", -1 };
         };
 		class Donator4 {
-            displayName = "Klub Myśliwski";
+            displayName = "Klub MyśliwskiVIP";
             spawnMarker = "don_spawn";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             license[] = { "don4", true };

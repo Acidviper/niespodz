@@ -59,7 +59,7 @@ class Life_Settings {
     service_chopper = 1000; //Cost to service chopper at chopper service station(Repair/Refuel).
 
     /* Gang System Configurations */
-    gang_price = 500000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_price = 400000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
     gang_upgradeBase = 1000000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
@@ -86,14 +86,14 @@ class Life_Settings {
     revive_fee = 20000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
    /* Paycheck & Bank System Configurations */
-    bank_cop = 50000; //Amount of cash in bank for new cops
-    bank_civ = 50000; //Amount of cash in bank for new civillians
+    bank_cop = 60000; //Amount of cash in bank for new cops
+    bank_civ = 60000; //Amount of cash in bank for new civillians
     bank_med = 50000; //Amount of cash in bank for new medics
 
     paycheck_period = 5; //Scaled in minutes
-    paycheck_cop = 3000; //Payment for cops
-    paycheck_civ = 1000; //Payment for civillians
-    paycheck_med = 6000; //Payment for medics
+    paycheck_cop = 4000; //Payment for cops
+    paycheck_civ = 2000; //Payment for civillians
+    paycheck_med = 6500; //Payment for medics
 
     /* Player Job System Configurations */
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25" };
@@ -141,6 +141,12 @@ class Life_Settings {
         vehicle_storage_fee_multiplier = .02; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
         vehicle_cop_impound_multiplier = .01; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 		vehicle_cop_seize_multiplier = .05;
+		
+		/* Channel 7 News Station Configurations */
+    news_broadcast_cost = 100000; //Cost for a player to send a news station broadcast.
+    news_broadcast_cooldown = 10; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
+    news_broadcast_header_length = 100; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
+
 
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */

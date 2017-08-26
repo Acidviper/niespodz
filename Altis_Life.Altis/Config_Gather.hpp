@@ -30,6 +30,14 @@ class CfgGather
 			zones[] = { "cocaine_1" };
 			item = "";
 		};
+		
+		class tobacco_unprocessed 
+		{
+            amount = 2; //Optional Amount
+            zones[] = { "tobacco_1" };
+            item = "";
+            zoneSize = 30;
+        }; 
 
 		class cannabis
 		{
@@ -100,6 +108,8 @@ Example 2:
 			item = "pickaxe";
 			mined[] = {"copper_unrefined"};
 		};
+		
+		
 		class iron_unrefined
 		{
 			amount = 2;

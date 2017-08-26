@@ -24,7 +24,7 @@
     while {true} do {
         _count = count _messages;
         _message = _messages select _i;
-        hint parseText format["<t color='#ffffff' size='2'>Niespodzianki</t><t color='#c45454' size='2'>Altis</t><br/><br/><img shadown='false' size='6' image='textures\logo.jpg'/><br/><br/>%1", _message];
+        hint parseText format["<t color='#ffffff' size='2'>Niespodzianki</t><t color='#c45454' size='2'>Altis</t><br/><br/><img shadown='false' size='6' image='logo.jpg'/><br/><br/>%1", _message];
         sleep _refreshTime;
         if (_i == (_count - 1)) then {
             _i = 0;

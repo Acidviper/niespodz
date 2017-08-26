@@ -134,6 +134,7 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	
 
     //Processing Licenses
     class salt {
@@ -207,6 +208,14 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	
+	class tobacco {
+        variable = "tobacco";
+        displayName = "STR_License_Tobacco";
+        price = 15000;
+        illegal = false;
+        side = "civ";
+    };
 
     //Alkohole
     class stiller {
@@ -249,7 +258,7 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
-
+	
     class heroin {
         variable = "heroin";
         displayName = "STR_License_Heroin";
@@ -277,7 +286,7 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 6500000;
+        price = 3500000;
         illegal = false;
         side = "civ";
     };

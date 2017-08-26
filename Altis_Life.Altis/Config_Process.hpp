@@ -118,6 +118,14 @@ class ProcessAction {
         //ScrollText = "Mix Cement";
         NoLicenseCost = 7500;
 	};
+	
+	class tobacco {
+        MaterialsReq[] = {{"tobacco_unprocessed",1}};
+        MaterialsGive[] = {{"tobacco_processed",1}};
+        Text = "STR_Process_Tobacco";
+        //ScrollText = "Process Tobacco";
+        NoLicenseCost = 1500; //optional price
+    };
 
 	class mash {
 

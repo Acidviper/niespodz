@@ -13,7 +13,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "pickaxe", "fuelFull", "peach", "rabbit_raw", "hen_raw", "rooster_raw", "storagesmall", "storagebig", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "pickaxe", "fuelFull", "peach", "rabbit_raw", "hen_raw", "rooster_raw", "storagesmall", "storagebig", "sheep_raw", "tobacco_processed", "goat_raw" };
     };
 
     class rebel {
@@ -53,7 +53,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach" };
     };
 
     class wongs {
@@ -165,7 +165,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "lockpick", "redgull", "toolkit", "fuelFull", "defusekit"};
+        items[] = { "donuts", "coffee", "spikeStrip", "redgull", "toolkit", "fuelFull", "defusekit"};
     };
 
     class med_market {
@@ -263,7 +263,7 @@ class VirtualItems {
         variable = "defibrillator";
         displayName = "STR_Item_Defibrillator";
         weight = 4;
-        buyPrice = 900;
+        buyPrice = 90;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -703,6 +703,18 @@ class VirtualItems {
     };
 
     //Drugs
+	 class tobacco_unprocessed {
+        variable = "tobaccoUnprocessed";
+        displayName = "STR_Item_TobaccoU";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "";
+        processedItem = "tobacco_processed";
+    };
+	
     class heroin_unprocessed {
         variable = "heroinUnprocessed";
         displayName = "STR_Item_HeroinU";
@@ -849,6 +861,17 @@ class VirtualItems {
         illegal = false;
         edible = 30;
         icon = "icons\ico_donuts.paa";
+    };
+	
+	class tobacco_processed {
+        variable = "tobaccoProcessed";
+        displayName = "STR_Item_Tobacco";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 500;
+        illegal = false;
+        edible = -1;
+        icon = "";
     };
 
     class rabbit_raw {

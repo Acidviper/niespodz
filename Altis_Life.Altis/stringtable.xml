@@ -43,6 +43,20 @@
     <Key ID="STR_Shops_C_Gun">
       <Original>Odzież Strzelecka</Original>
     </Key>
+	<Key ID="STR_Item_TobaccoU">
+            <Original>Makulatura</Original>
+        </Key>
+        <Key ID="STR_Item_Tobacco">
+            <Original>Papier toaletowy</Original>
+        </Key> 
+
+         <Key ID="STR_License_Tobacco">
+            <Original>Licencja papier toaletowy</Original>
+        </Key> 
+
+         <Key ID="STR_Process_Tobacco">
+            <Original>Przerabianie na papier toaletowy</Original>
+        </Key>
 
        <Key ID="STR_GNOTF_CaptureAreaAttemptPopo">
             <Original>%1 i reszta psów neutralizuje strefe!</Original>

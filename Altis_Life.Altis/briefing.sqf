@@ -231,10 +231,13 @@ player createDiarySubject ["credits","Credits"];
 				3. Piwo<br/>
 				Drożdże + Chmiel = Whiskey<br/>
 				Piwo + Butelka = Butelkowane Piwo<br/><br/>
-				4. Whiskey<br/>
+				4. Uran<br/>
+				Kopalnia uranu<br/>
+				.<br/><br/>
+				5. Whiskey<br/>
 				Drożdże + Żyto = Whiskey<br/>
 				Whiskey + Butelka = Butelkowana Whiskey<br/><br/>
-				5. Biżuteria<br/>
+				6. Biżuteria<br/>
 				Oszlifowany Diament + Srebro = Biżuteria<br/><br/>
 
 				"

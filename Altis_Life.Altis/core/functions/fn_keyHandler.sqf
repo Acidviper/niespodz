@@ -389,6 +389,39 @@ switch (_code) do {
 			[] call SOCK_fnc_updateRequest;
 		};
 	};
+	
+	case 2:
+	{
+		if(vehicle player isEqualTo player) then {
+			if(!life_action_inUse) then {
+				player playActionNow "gestureHi";
+			};
+		};
+	};
+	case 3:
+	{
+		if(vehicle player isEqualTo player) then {
+			if(!life_action_inUse) then {
+				player playActionNow "gestureHiC";
+			};
+		};
+	};
+	case 4:
+	{
+		if(vehicle player isEqualTo player) then {
+			if(!life_action_inUse) then {
+				player playActionNow "gestureHiB";
+			};
+		};
+	};
+	case 5:
+	{
+		if(vehicle player isEqualTo player) then {
+			if(!life_action_inUse) then {
+				player playActionNow "gesturenod";
+			};
+		};
+	};
 
 	//U Key
 	case 22: {

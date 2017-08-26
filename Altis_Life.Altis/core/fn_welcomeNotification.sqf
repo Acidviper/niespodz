@@ -29,8 +29,8 @@ _message = _message + "<t align='center' size='8' shadow='0'><img image='texture
 _message = _message + "WWW:<br />";
 _message = _message + " <a href='http://aln.ct8.pl/' color='#56BDD6'>Niespodzianki</a> - Nasze Forum.<br />";
 _message = _message + "Adres Teamspeak'a: stabilne.it<br /><br />";
-_message = _message + "Changelog:<br />";
-_message = _message + "- Rekrutacja na policje otwarta<br />";
+_message = _message + "Zmiany:Zakaz powrotu na miejsce akcji po śmierci!!!! (TESTOWO)<br />";
+_message = _message + "- Szybki zarobek na początek-Ryby, papier toaletowy :)<br />";
 _message = _message + "- Rekrutacja na medyka otwarta<br />";
 
 //Fill only the first text

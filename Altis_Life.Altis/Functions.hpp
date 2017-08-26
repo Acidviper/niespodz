@@ -63,6 +63,7 @@ class Life_Client_Core {
 		class healHospital {};
 		class impoundAction {};
 		class mine {};
+		class newsBroadcast {};
 		class packupSpikes {};
 		class pickupItem {};
 		class pickupMoney {};
@@ -193,6 +194,8 @@ class Life_Client_Core {
 		class vehInvSearch {};
 		class wantedGrab {};
 		class copZones {};
+		class backup {};
+        class callBackup {};
 	};
 
 	class Dialog_Controls {
@@ -255,6 +258,7 @@ class Life_Client_Core {
 		class nearATM {};
 		class nearestDoor {};
 		class nearUnits {};
+		class postNewsBroadcast {};
 		class numberText {};
 		class numberText2 {};
 		class onFired {};
@@ -410,6 +414,16 @@ class Life_Client_Core {
 		class wantedInfo {};
 		class wantedList {};
 		class wantedMenu {};
+	};
+	
+	class CellPhone {
+		file = "core\cellphone";
+		class cellPhoneCheck {};
+		class setupCellPhone {};
+		class messagesMenu {};
+		class lbChanged {};
+		class deleteMessage {};
+		class replyMessage {};
 	};
 
 	class Shops	{

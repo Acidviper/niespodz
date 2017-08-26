@@ -213,6 +213,21 @@ compileFinal "
     hint format[""Admin Message Sent To All: %1"",_msg];
     ctrlShow[3021,true];
 ";
+//komunikaty policji
+TON_fnc_cell_PSA =
+compileFinal "
+    if (isServer) exitWith {};
+    if ((call life_coplevel) < 1) exitWith {hint ""Nie jesteś Psem"";};
+    private[""_msg"",""_from""];
+    ctrlShow[3024,false];
+    _msg = ctrlText 3003;
+    if (_msg isEqualTo """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3024,true];};
+
+    [_msg,name player,6] remoteExecCall [""TON_fnc_clientMessage"",-2];
+    [] call life_fnc_cellphone;
+    hint format[""Wiadmość od policji: %1"",_msg];
+    ctrlShow[3024,true];
+";
 
 publicVariable "TON_fnc_cell_textmsg";
 publicVariable "TON_fnc_cell_textcop";
@@ -220,6 +235,7 @@ publicVariable "TON_fnc_cell_textadmin";
 publicVariable "TON_fnc_cell_adminmsg";
 publicVariable "TON_fnc_cell_adminmsgall";
 publicVariable "TON_fnc_cell_emsrequest";
+publicVariable "TON_fnc_cell_PSA";
 //Client Message
 /*
     0 = private message
@@ -303,6 +319,17 @@ compileFinal "
             hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>EMS Request<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>You<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><t color='#33CC33'>Coords: <t color='#ffffff'>%2<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%3"",_from,_loc,_msg];
 
             [""TextMessage"",[format[""EMS Request from %1"",_from]]] call bis_fnc_showNotification;
+        };
+		
+		case 6: { 
+          private[""_message"",""_from""];
+          _message = format[""SMS POLICJA:: %1"",_msg];
+          _from = format[""Policja wysłała: %1"", _from];
+          hint parseText format [""<t color='#1684ca'><t size='3'><t align='center'>Policja do wszystkich<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>Wszystkich<br/><t color='#33CC33'>From: <t color='#ffffff'>Policja<br/><br/><t color='#33CC33'>Wiadmość:<br/><t color='#ffffff'>%1"",_msg];
+
+          [""Wiadomość od policji"",[""Otrzymano ALARM od Policji!""]] call bis_fnc_showNotification;
+          systemChat _message;
+          if ((call life_coplevel) > 0) then {systemChat _from;};
         };
     };
 ";

@@ -22,7 +22,8 @@ class WeaponShops {
         license = "bedzieszkurwodzialac";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "hgun_Pistol_heavy_01_F", "", 25000, -1 },
+			{ "hgun_Pistol_heavy_01_F", "", 15000, -1 },
+			{ "SMG_01_F", "", 65000, -1 },
 
 			{ "Binocular", "", 400, -1 },
             { "ItemGPS", "", 200, -1 },
@@ -30,10 +31,11 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 }
+            { "NVGoggles", "", 5000, -1 }
         };
         mags[] = {
-			{ "11Rnd_45ACP_Mag", "", 50 }
+			{ "11Rnd_45ACP_Mag", "", 50 },
+			{ "30Rnd_45ACP_Mag_SMG_01", "", 350 }
         };
 		accs[] = {
 			{ "optic_MRD", "", 2500, -1 }
@@ -64,7 +66,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -111,7 +113,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -261,7 +263,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -306,7 +308,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -374,7 +376,7 @@ class WeaponShops {
             { "ItemWatch", "", 90, -1 },
             { "FirstAidKit", "", 460, -1 },
 			{ "Medikit", "", 2000, -1 },
-            { "NVGoggles", "", 9000, -1 },
+            { "NVGoggles", "", 2000, -1 },
             { "Chemlight_red", "", 900, -1 },
             { "Chemlight_yellow", "", 900, -1 },
             { "Chemlight_green", "", 900, -1 },
@@ -687,7 +689,7 @@ class WeaponShops {
             { "ItemCompass", "", 70, -1 },
             { "ItemWatch", "", 70, -1 },
             { "FirstAidKit", "", 280, -1 },
-            { "Medikit", "", 2000, -1 },
+            { "Medikit", "", 1000, -1 },
             { "NVGoggles", "", 7000, -1 },
             { "Chemlight_red", "", 700, -1 },
             { "Chemlight_yellow", "", 700, -1 },
@@ -776,7 +778,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -842,7 +844,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -915,7 +917,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -982,7 +984,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1045,7 +1047,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1113,7 +1115,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1177,7 +1179,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1236,7 +1238,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1303,7 +1305,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1357,7 +1359,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1389,7 +1391,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, -1 },
 			{ "ItemRadio", "", 50, -1 },
             { "FirstAidKit", "", 200, -1 },
-            { "NVGoggles", "", 2000, -1 },
+            { "NVGoggles", "", 6000, -1 },
             { "Chemlight_red", "", 500, -1 },
             { "Chemlight_yellow", "", 500, -1 },
             { "Chemlight_green", "", 500, -1 },
@@ -1409,7 +1411,7 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 400, -1 },
-            { "NVGoggles", "", 10000, -1 },
+            { "NVGoggles", "", 5000, -1 },
             { "Chemlight_red", "", 1000, -1 },
             { "Chemlight_yellow", "", 1000, -1 },
             { "Chemlight_green", "", 1000, -1 },
@@ -1432,7 +1434,6 @@ class WeaponShops {
 			{ "arifle_SPAR_01_blk_F", "", 1000, -1 },
 			{ "arifle_SPAR_02_blk_F", "", 1000, -1 },
 
-            { "HandGrenade_Stone", "Flashbang", 1000, -1 },
             { "Rangefinder", "", 1000, -1 },
 			{ "NVGoggles_OPFOR", "", 1000, -1 },
             { "ItemGPS", "", 100, -1 },
@@ -1440,8 +1441,7 @@ class WeaponShops {
             { "ItemRadio", "", 100, -1 },
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
-            { "Medikit", "", 1000, -1 },
-			{ "SmokeShellBlue", "Gaz łzawiący", 100, -1 }
+            { "Medikit", "", 1000, -1 }
         };
         mags[] = {
 			{ "30Rnd_9x21_Mag", "", 50 },
@@ -2025,8 +2025,7 @@ class WeaponShops {
 			{ "10Rnd_338_Mag","",500},
 			{ "10Rnd_93x64_DMR_05_Mag","",500},
 			{ "RPG32_F","",100000},
-            { "RPG32_HE_F","",300000},
-			{ "Titan_AA","",100000}
+            { "RPG32_HE_F","",300000}
         };
 		accs[] = {
 			{ "optic_Aco", "", 1000, -1 },
@@ -2126,8 +2125,7 @@ class WeaponShops {
 			{ "10Rnd_50BW_Mag_F", "", 300 },
 			{ "RPG32_F","",100000},
             { "RPG32_HE_F","",300000},
-			{ "NLAW_F","",300000},
-			{ "Titan_AA","",300000}
+			{ "NLAW_F","",300000}
         };
 		accs[] = {
 			{ "optic_Aco", "", 1000, -1 },
@@ -2228,8 +2226,7 @@ class WeaponShops {
 			{ "10Rnd_50BW_Mag_F", "", 300 },
 			{ "RPG32_F","",100000},
             { "RPG32_HE_F","",300000},
-			{ "NLAW_F","",300000},
-			{ "Titan_AA","",300000}
+			{ "NLAW_F","",300000}
         };
 		accs[] = {
 			{ "optic_Aco", "", 1000, -1 },
@@ -2293,6 +2290,8 @@ class WeaponShops {
 
             { "10Rnd_50BW_Mag_F", "type 115", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 1000, -1 },
+			{ "SmokeShellBlue", "Gaz łzawiący", 100, -1 },
+			{ "1Rnd_SmokeBlue_Grenade_shell", "Gaz łzawiący granatnik", 100, -1 },
             { "B_UavTerminal", "", 1000, -1 },
             { "Rangefinder", "", 1000, -1 },
 			{ "NVGoggles_OPFOR", "", 1000, -1 },
@@ -2302,9 +2301,8 @@ class WeaponShops {
             { "ItemCompass", "", 100, -1 },
             { "ItemWatch", "", 100, -1 },
             { "FirstAidKit", "", 1000, -1 },
-            { "Medikit", "", 1000, -1 },
-			{ "SmokeShellBlue", "Gaz łzawiący", 100, -1 },
-			{ "1Rnd_SmokeBlue_Grenade_shell", "Gaz łzawiący granatnik", 100, -1 }
+            { "Medikit", "", 1000, -1 }
+			
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -2330,8 +2328,7 @@ class WeaponShops {
 			{ "10Rnd_50BW_Mag_F", "", 300 },
 			{ "RPG32_F","",100000},
             { "RPG32_HE_F","",300000},
-			{ "NLAW_F","",300000},
-			{ "Titan_AA","",300000}
+			{ "NLAW_F","",300000}
         };
 		accs[] = {
 			{ "optic_Aco", "", 240 },

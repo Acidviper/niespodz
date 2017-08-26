@@ -35,3 +35,4 @@
 #include "common_EditorWrapper.hpp"
 #include "market.hpp"
 #include "marker.hpp"
+#include "newsStation.hpp"
