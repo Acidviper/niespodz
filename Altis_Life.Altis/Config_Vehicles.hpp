@@ -916,7 +916,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "textures\Policja\cop_hunter1.paa",
                 "textures\Policja\cop_hunter2.paa"
             } },
-			{ "ADmina", "heda", {
+			{ "Donator", "don3", {
                 "textures\hunter.paa",
                 "textures\hunter1.paa"
             } }
