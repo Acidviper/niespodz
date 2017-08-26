@@ -194,8 +194,6 @@ class Life_Client_Core {
 		class vehInvSearch {};
 		class wantedGrab {};
 		class copZones {};
-		class backup {};
-        class callBackup {};
 	};
 
 	class Dialog_Controls {

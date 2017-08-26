@@ -761,6 +761,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
+	class B_Heli_Light_01_dynamicLoadout_F {
+        vItemSpace = 50;
+        licenses[] = { {"license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4"}, {""}, {""}, {""} };
+        price = 23000000;
+        textures[] = {};
+    };
+	
     class C_Hatchback_01_F {
         vItemSpace = 40;
         licenses[] = { {"license_civ_driver"}, {"license_cop_driverC"}, {"license_med_driverM"}, {""} };
@@ -877,14 +884,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 50000;
         textures[] = {};
     };
-	
-	class B_Heli_Light_01_dynamicLoadout_F {
-        vItemSpace = 50;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 18000000;
-        textures[] = {};
-    };
-	
+		
     class C_Van_01_box_F {
         vItemSpace = 250;
         licenses[] = { {"license_civ_trucking","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4"}, {""}, {"license_med_driverM"}, {""} };
