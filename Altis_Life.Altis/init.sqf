@@ -15,8 +15,7 @@ setTerrainGrid 50;
 [] execVM "scripts\fog.sqf";
 0 = execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\teargas.sqf";
-[] execVM “scripts\zlt_fastrope.sqf”;
-0 = execVM "removeMissiles.sqf";
+
 
 if(isDedicated && isNil("life_market_prices")) then
 {

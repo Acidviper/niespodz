@@ -89,6 +89,21 @@ life_market_resources = [
 			["bottles",1]
 		]
 	],
+	
+	["tobacco_processed", 800, 450, 1000, 3, 1,
+		[
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["goldbar",1],
+			["bottles",1]
+		]
+	],
 
 	["salt_refined", 1400, 140, 3150, 2, 1,
 		[
@@ -367,7 +382,7 @@ life_market_resources = [
 		]
 	],
 
-	["uranpre", 75000, 45000, 85000, 15, 10,
+	["uranpre", 37500, 28000, 59000, 15, 10,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -383,7 +398,7 @@ life_market_resources = [
 		]
 	],
 
-	["buran", 55000, 35000, 65000, 15, 10,
+	["buran", 26000, 20000, 46000, 15, 10,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],

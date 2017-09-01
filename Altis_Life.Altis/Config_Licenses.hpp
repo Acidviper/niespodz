@@ -528,35 +528,35 @@ class Licenses {
 	class uranoc {
         variable = "uranoc";
         displayName = "STR_License_uranoc";
-        price = 150000;
+        price = 1500000;
         illegal = false;
         side = "civ";
     };
 	class uranpr {
         variable = "uranpr";
         displayName = "STR_License_uranpr";
-        price = 150000;
+        price = 3500000;
         illegal = false;
         side = "civ";
     };
 	class uranwz {
         variable = "uranwz";
         displayName = "STR_License_uranwz";
-        price = 150000;
+        price = 1500000;
         illegal = false;
         side = "civ";
     };
     class uranpre {
         variable = "uranpre";
         displayName = "STR_License_uranpre";
-        price = 150000;
+        price = 1500000;
         illegal = false;
         side = "civ";
     };
 	class buran {
         variable = "buran";
         displayName = "STR_License_buran";
-        price = 300000;
+        price = 3000000;
         illegal = true;
         side = "civ";
     };

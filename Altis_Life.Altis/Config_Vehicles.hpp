@@ -546,6 +546,9 @@ class LifeCfgVehicles {
             { "Policja", "cop", {
                 "textures\Policja\cop_offroad.paa"
             } },
+			{ "Policja", "cop", {
+                "textures\Policja\ALN_police_offroad.paa"
+            } },
             { "Medyczny", "med", {
                 "textures\Medycy\offroad_Medyk.paa"
             } },
@@ -667,6 +670,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Policja", "cop", {
                 "textures\Policja\cop_hatchbacksport.paa"
+            } },
+			{ "Policja", "cop", {
+                "textures\Policja\ALN_police_hatchback.paa"
             } },
             { "Medyczny", "med", {
                "textures\Medycy\medic_hatchback.paa"
@@ -841,9 +847,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Policja", "cop", {
                 "textures\Policja\cop_suv.paa"
             } },
+			{ "Policja", "cop", {
+                "textures\Policja\ALN_police_suv.paa"
+            } },
 			{ "special", "cop", {
                 "textures\Policja\suvbope.paa"
             } },
+						
 			{ "Medyczny", "med", {
                "textures\Medycy\medic_suv.paa"
             } }
@@ -915,6 +925,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Policyjny", "cop", {
                 "textures\Policja\cop_hunter1.paa",
                 "textures\Policja\cop_hunter2.paa"
+            } },
+			{ "Policyjny", "cop", {
+                "textures\Policja\ALN_police_hunter01.paa",
+                "textures\Policja\ALN_police_hunter02.paa"
             } },
 			{ "ADmina", "heda", {
                 "textures\hunter.paa",
@@ -1117,6 +1131,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 500000;
         textures[] = {};
     };
+	
+	 class C_Truck_02_box_F {
+        vItemSpace = 150;
+        licenses[] = { {"license_civ_driver"}, {"license_cop_driverC"}, {"license_med_driverM"}, {""} };
+        price = 25000;
+        textures[] = {};
+	};
 
     class I_MRAP_03_F {
         vItemSpace = 150;
@@ -1134,7 +1155,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class I_Heli_light_03_unarmed_F {
         vItemSpace = 350;
-        licenses[] = { {"license_civ_don4"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
+        licenses[] = { {"license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
         price = 4100000;
         textures[] = {
             { "Medyczny", "med", {

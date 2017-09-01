@@ -22,9 +22,6 @@ switch(playerSide) do {
 	};
 
 	case west: {
-		if ((FETCH_CONST(life_coplevel) >= 7) && ((uniform player) == "U_B_CombatUniform_mcam")) then {
-				player setObjectTextureGlobal [0, "textures\Uniform\boa_uniform"];
-			};
 
 		if(uniform player == "U_B_CombatUniform_mcam") then {
 			player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform.paa"];
