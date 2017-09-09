@@ -1472,7 +1472,7 @@ class WeaponShops {
 			{ "arifle_MX_Black_F", "", 1000, -1 },
 			{ "arifle_SPAR_02_blk_F", "", 1000, -1 },
 			{ "arifle_MX_SW_F", "", 1000, -1 },
-
+			{ "LMG_MK200_F", "tylko na duze akcje", 1000, -1 },
             { "HandGrenade_Stone", "Flashbang", 1000, -1 },
             { "Rangefinder", "", 1000, -1 },
 			{ "NVGoggles_OPFOR", "", 1000, -1 },
@@ -1492,6 +1492,7 @@ class WeaponShops {
 			{ "100Rnd_580x42_Mag_F", "", 700 },
 			{ "150Rnd_556x45_Drum_Mag_F", "", 50 },
 			{ "100Rnd_65x39_caseless_mag", "", 700 },
+			{ "200Rnd_65x39_cased_Box", "", 490 },
 			{ "30Rnd_65x39_caseless_mag", "", 100 }
         };
 		accs[] = {
@@ -1532,6 +1533,7 @@ class WeaponShops {
 			{ "arifle_Katiba_F", "", 1000, -1 },
             { "arifle_SPAR_02_blk_F", "", 1000, -1 },
 			{ "srifle_EBR_F", "", 1000, -1 },
+			{ "LMG_MK200_F", "tylko na duze akcje", 1000, -1 },
 
             { "HandGrenade_Stone", "Flashbang", 1000, -1 },
             { "Rangefinder", "", 1000, -1 },
@@ -1554,6 +1556,7 @@ class WeaponShops {
 			{ "100Rnd_580x42_Mag_F", "", 700 },
             { "150Rnd_556x45_Drum_Mag_F", "", 50 },
 			{ "100Rnd_65x39_caseless_mag", "", 700 },
+			{ "200Rnd_65x39_cased_Box", "", 490 },
 			{ "30Rnd_65x39_caseless_mag", "", 100 }
         };
 		accs[] = {
@@ -1595,6 +1598,7 @@ class WeaponShops {
 			{ "arifle_MX_SW_Black_F", "", 1000, -1 },
 			{ "arifle_Katiba_F", "", 1000, -1 },
 			{ "srifle_EBR_F", "", 1000, -1 },
+			{ "LMG_MK200_F", "tylko na duze akcje", 1000, -1 },
 
             { "HandGrenade_Stone", "Flashbang", 1000, -1 },
             { "Rangefinder", "", 1000, -1 },

@@ -122,9 +122,9 @@ class Clothing {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
 			{ "U_Rangemaster", "", 50, { "", "", -1 } },
 			{ "U_B_CombatUniform_mcam", "", 1000, { "life_coplevel", "SCALAR", -1 } },
-            { "U_B_CombatUniform_mcam_worn", "", 1000, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam_worn", "", 1000, { "life_coplevel", "SCALAR", 4 } },
 			{ "U_B_GEN_Soldier_F", "", 1000, { "life_coplevel", "SCALAR", 4 } },
-            { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", 5 } },
+            { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", 7 } },
             { "U_B_FullGhillie_ard", "", 1000, { "life_coplevel", "SCALAR", 8 } }           
         };
@@ -158,7 +158,7 @@ class Clothing {
             { "NONE", "Usuń Kamizelke", 0, { "", "", -1 } },		
             { "V_DeckCrew_yellow_F", "", 1000, { "", "", -1 } },
 			{ "V_TacVest_blk_POLICE", "", 1000, { "", "", -1 } },
-            { "V_RebreatherB", "", 1000, { "life_coplevel", "SCALAR", 3 } },
+            { "V_RebreatherB", "", 1000, { "life_coplevel", "SCALAR", 2 } },
 			{ "V_PlateCarrier1_blk", "", 5000, { "life_coplevel", "SCALAR", 4 } },
 			{ "V_PlateCarrier2_blk", "", 5000, { "life_coplevel", "SCALAR", 6 } },
             { "V_PlateCarrierSpec_blk", "", 10000, { "life_coplevel", "SCALAR", 8 } }

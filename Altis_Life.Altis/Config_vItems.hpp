@@ -630,7 +630,7 @@ class VirtualItems {
         displayName = "STR_Item_SaltR";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 3550;
+        sellPrice = 3950;
         illegal = false;
         edible = -1;
         icon = "icons\ico_saltProcessed.paa";
@@ -652,7 +652,7 @@ class VirtualItems {
         displayName = "STR_Item_Glass";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 3600;
+        sellPrice = 4600;
         illegal = false;
         edible = -1;
 	      icon = "icons\ico_glass.paa";

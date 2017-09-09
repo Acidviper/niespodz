@@ -57,6 +57,8 @@ if(count life_spawn_point == 0) then {
 if(life_firstSpawn) then {
 	life_firstSpawn = false;
 	[] spawn life_fnc_introCam;
+	[] call life_fnc_welcomeNotification;
+	playSound "intro";
 };
 [] call life_fnc_playerSkins;
 [] call life_fnc_hudSetup;

@@ -279,12 +279,12 @@ class Life_atm_management {
 			w = 0.3;
 		};
 		
-		class DepositallButton : life_RscButtonMenu 
+		class GangWithdraw : TransferButton 
 		{
 			idc = -1;
-			text = "Wplac Cala Gotowke";
+			text = "Wplac z Gangu";
 			colorBackground[] = {0,1,0,0.75};
-			onButtonClick = "[0,5] spawn life_fnc_bankfast;";
+			onButtonClick = "[] call life_fnc_gangWithdraw";
 			x = 0.365;
 			y = 0.82;
 			w = 0.3;

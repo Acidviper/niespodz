@@ -31,8 +31,8 @@ switch(playerSide) do {
 			player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform.paa"];
 		};
 		if(uniform player == "U_B_CombatUniform_mcam_worn") then {
-			if((call life_coplevel) < 6) then {player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform1.paa"];};
-			if((call life_coplevel) > 4) then {player setObjectTextureGlobal [0, "textures\Uniform\inspektor.paa"];};
+			if((call life_coplevel) < 4) then {player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform1.paa"];};
+			if((call life_coplevel) < 6) then {player setObjectTextureGlobal [0, "textures\Uniform\inspektor.paa"];};
 		};
 		if(uniform player == "U_B_CombatUniform_mcam_vest") then {
 			player setObjectTextureGlobal [0, "textures\Uniform\boa_uniform.paa"];
