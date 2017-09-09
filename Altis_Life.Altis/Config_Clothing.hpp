@@ -122,7 +122,7 @@ class Clothing {
             { "NONE", "Usuń Uniform", 0, { "", "", -1 } },
 			{ "U_Rangemaster", "", 50, { "", "", -1 } },
 			{ "U_B_CombatUniform_mcam", "", 1000, { "life_coplevel", "SCALAR", -1 } },
-            { "U_B_CombatUniform_mcam_worn", "", 1000, { "life_coplevel", "SCALAR", 4 } },
+            { "U_B_CombatUniform_mcam_worn", "", 1000, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_B_GEN_Soldier_F", "", 1000, { "life_coplevel", "SCALAR", 4 } },
             { "U_O_Wetsuit", "", 350, { "life_coplevel", "SCALAR", -1 } },
             { "U_B_GEN_Commander_F", "", 1000, { "life_coplevel", "SCALAR", 7 } },
