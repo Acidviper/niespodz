@@ -27,9 +27,9 @@ _text2 = _display displayCtrl 1102;
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\logo.jpg' /></t><br /><br />";
 _message = _message + "WWW:<br />";
-_message = _message + " <a href='http://aln.ct8.pl/' color='#56BDD6'>Niespodzianki</a> - Nasze Forum.<br />";
+_message = _message + " <a href='http://aln.ct8.pl/' color='#56BDD6'>Niespodzianki wersja 1.01</a> - Nasze Forum.<br />";
 _message = _message + "Adres Teamspeak'a: stabilne.it<br /><br />";
-_message = _message + "Zmiany:Zakaz powrotu na miejsce akcji po śmierci!!!! (TESTOWO)<br />";
+_message = _message + "Zmiany:Nowe textury, Kasyno<br />";
 _message = _message + "- Szybki zarobek na początek-Ryby, papier toaletowy :)<br />";
 _message = _message + "- Rekrutacja na medyka otwarta<br />";
 

@@ -14,49 +14,51 @@ life_market_resources = [
 
 	// Default İsler
 
-	["oil_processed", 3000, 300, 4250, 3, 1,
+	["oil_processed", 4200, 300, 6250, 3, 1,
 		[
-			["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["iron_refined",1],
-			["salt_refined",1],
-			["glass",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+			["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
 	["diamond_cut", 4500, 450, 5250, 5, 2,
 		[
-			["s_pro",1],
-			["oil_processed",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["iron_refined",1],
-			["salt_refined",1],
-			["glass",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+			["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
 	["jewelery", 22000, 12000, 32000, 5, 2,
 		[
-			["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["copper_refined",1],
-			["iron_refined",1],
-			["salt_refined",1],
-			["glass",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+			["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
@@ -77,76 +79,81 @@ life_market_resources = [
 
 	["iron_refined", 2100, 350, 4250, 3, 1,
 		[
-			["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["salt_refined",1],
-			["glass",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+			["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 	
-	["tobacco_processed", 800, 450, 1000, 3, 1,
+	["tobacco_processed", 800, 450, 1200, 3, 1,
 		[
-			["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["salt_refined",1],
-			["glass",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+			["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
-	["salt_refined", 1400, 140, 3150, 2, 1,
+	["salt_refined", 2400, 140, 3550, 2, 1,
 		[
-            ["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["iron_refined",1],
-			["glass",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+            ["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
 	["glass", 2500, 1250, 3500, 2, 1,
 		[
-            ["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["iron_refined",1],
-			["salt_refined",1],
-			["cement",1],
-			["goldbar",1],
-			["bottles",1]
+            ["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
-	["cement", 2500, 1500, 3200, 2, 1,
+	["cement", 2500, 1500, 4200, 2, 1,
 		[
-            ["s_pro",1],
-			["oil_processed",1],
-			["diamond_cut",1],
-			["jewelery",1],
-			["copper_refined",1],
-			["iron_refined",1],
-			["salt_refined",1],
-			["glass",1],
-			["goldbar",1],
-			["bottles",1]
+            ["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1]
 		]
 	],
 
@@ -157,123 +164,120 @@ life_market_resources = [
 			["diamond_cut",1],
 			["jewelery",1],
 			["copper_refined",1],
-			["iron_refined",1],
 			["salt_refined",1],
 			["glass",1],
 			["cement",1],
+			["tobacco_processed",1],
+			["goldbar",1],
 			["bottles",1]
 		]
 	],
 
-	["marijuana", 5000, 2200, 6250, 10, 7,
+	["marijuana", 5000, 2200, 9000, 10, 7,
 		[
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["tobacco_processed",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
-	["cocaine_processed", 9000, 4500, 11250, 15, 10,
+	["cocaine_processed", 9000, 4500, 14000, 15, 10,
 		[
-			["marijuana",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["tobacco_processed",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
-	["heroin_processed", 6500, 2500, 8700, 15, 10,
+	["heroin_processed", 6500, 2500, 12000, 15, 10,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["tobacco_processed",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
 	["bottledwhiskey", 6000, 2500, 7500, 3, 1,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
 	["bottledbeer", 4500, 2500, 6500, 3, 1,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
 	["whiskey", 2500, 100, 5500, 2, 1,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
 	["beer", 1000, 50, 4000, 2, 1,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
@@ -369,48 +373,39 @@ life_market_resources = [
 
 	["turtle_Raw", 25000, 12500, 35000, 3, 1,
 		[
-		    ["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["buran",1]
+			["buran",1],
+			["uranpre",1]
 		]
 	],
 
 	["uranpre", 37500, 28000, 59000, 15, 10,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["buran",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
 	["buran", 26000, 20000, 46000, 15, 10,
 		[
-			["marijuana",1],
-			["cocaine_processed",1],
-			["heroin_processed",1],
-			["bottledwhiskey",1],
-			["bottledbeer",1],
-			["bottledshine",1],
-			["whiskey",1],
-			["beer",1],
-			["moonshine",1],
-			["turtleRaw",1],
-			["uranpre",1]
+			["s_pro",1],
+			["oil_processed",1],
+			["diamond_cut",1],
+			["jewelery",1],
+			["copper_refined",1],
+			["salt_refined",1],
+			["glass",1],
+			["cement",1],
+			["tobacco_processed",1],
+			["goldbar",1],
+			["bottles",1]
 		]
 	],
 
@@ -424,6 +419,7 @@ life_market_resources = [
 			["salt_refined",1],
 			["glass",1],
 			["cement",1],
+			["tobacco_processed",1],
 			["goldbar",1],
 			["bottles",1]
 		]

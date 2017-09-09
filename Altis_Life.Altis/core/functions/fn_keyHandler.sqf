@@ -127,6 +127,14 @@ switch (_code) do {
 			case civilian: {if(!visibleMap) then {[] spawn life_fnc_civMarkers;}};
 		};
 	};
+	
+	 // O, police gate opener
+        case 24:
+	{
+		if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player)) then {
+			[] call life_fnc_copOpener;
+		};
+	};
 
 	// WantedList
 	case 6:

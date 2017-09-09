@@ -2,7 +2,7 @@
 /*
 	File: fn_vehicleWeightCfg.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+	dica
 	Description:
 	Master configuration for vehicle weight.
 */

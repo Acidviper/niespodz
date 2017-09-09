@@ -1,6 +1,7 @@
 /*
 	File: fn_vehicleAnimate.sqf
 	Author: Bryan "Tonic" Boardwine
+	dica
 	
 	Description:
 	Pass what you want to be animated.

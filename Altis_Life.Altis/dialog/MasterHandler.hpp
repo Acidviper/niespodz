@@ -35,4 +35,6 @@
 #include "common_EditorWrapper.hpp"
 #include "market.hpp"
 #include "marker.hpp"
+#include "slot_machine.hpp"
+#include "blackjack.hpp"
 #include "newsStation.hpp"

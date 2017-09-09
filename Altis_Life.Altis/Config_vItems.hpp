@@ -542,7 +542,7 @@ class VirtualItems {
         displayName = "STR_Item_OilP";
         weight = 1;
         buyPrice = -1;
-        sellPrice = 5700;
+        sellPrice = 6250;
         illegal = false;
         edible = -1;
         icon = "icons\ico_oilProcessed.paa";
@@ -630,7 +630,7 @@ class VirtualItems {
         displayName = "STR_Item_SaltR";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 3200;
+        sellPrice = 3550;
         illegal = false;
         edible = -1;
         icon = "icons\ico_saltProcessed.paa";
@@ -696,7 +696,7 @@ class VirtualItems {
         displayName = "STR_Item_CementBag";
         weight = 5;
         buyPrice = -1;
-        sellPrice = 2600;
+        sellPrice = 4200;
         illegal = false;
         edible = -1;
 	      icon = "icons\ico_cement.paa";
@@ -868,10 +868,10 @@ class VirtualItems {
         displayName = "STR_Item_Tobacco";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 1000;
+        sellPrice = 1200;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icons\papier.paa";
     };
 
     class rabbit_raw {

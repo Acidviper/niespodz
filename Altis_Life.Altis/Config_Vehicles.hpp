@@ -210,7 +210,7 @@ class CarShops {
     class boa_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } }, //Humming
+            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 1 } }, //Humming
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 3 } }, //Orca
             { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 5 } }, //GhostHawk
             { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 4 } }, //Hellcat
@@ -221,7 +221,7 @@ class CarShops {
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } }, //Humming
+            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 1 } }, //Humming
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 3 } }, //Orca
             { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 5 } }, //GhostHawk
             { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 4 } }, //Hellcat

@@ -148,6 +148,8 @@ class Life_Client_Core {
 		class tazed {};
 		class tie {};
 		class hasOrgan {};
+		class slotSpin {};
+        class slotmachine {};
 	};
 
 	class Config {
@@ -157,12 +159,14 @@ class Life_Client_Core {
 		class taxRate {};
 		class vehicleAnimate {};
 		class vehicleWeightCfg {};
+		class updateClothing {};
 	};
 	class Cop {
 		file = "core\cop";
 		class arrestDialog_Arrest {};
 		class bountyReceive {};
 		class breathalyzer {};
+		class copOpener {};
 		class containerInvSearch {};
 		class copInteractionMenu {};
 		class copEnter {};
@@ -300,6 +304,12 @@ class Life_Client_Core {
 		class gangUpgrade {};
 		class initGang {};
 	};
+	
+	class Slotmachine {
+      file = "Custom\Slotmachine";
+			class slotSpin {};
+			class slotmachine {};
+    };
 
 	class Housing {
 		file = "core\housing";
@@ -453,6 +463,10 @@ class Life_Client_Core {
 		class weaponShopMenu {};
 		class weaponShopSelection {};
 		class virt_sellAll {};
+		class blackjack {};  //BlackJack
+        class BJbet {};  //BlackJack
+        class BJhit {};  //BlackJack
+        class BJstay {};  //BlackJack
 	};
 
 	class Vehicle {

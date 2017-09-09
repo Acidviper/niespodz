@@ -146,32 +146,7 @@ class TrunkMenu
 			h = 0.033 * safezoneH;
 		};
 		
-		class TakeAllItem: Life_RscButtonMenu
-		{
-			idc = -1;
-			text = "Weź wszystko";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] call Life_fnc_vehTakeAllItem;";
-
-			x = 0.345312 * safezoneW + safezoneX;
-			y = 0.76 * safezoneH + safezoneY;
-			w = 0.128906 * safezoneW;
-			h = 0.033 * safezoneH;
-		};
 		
-		class StoreAllItem: Life_RscButtonMenu
-		{
-			idc = -1;
-			text = "Schowaj wszystko";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] call Life_fnc_vehStoreAllItem;";
-
-			x = 0.515469 * safezoneW + safezoneX;
-			y = 0.76 * safezoneH + safezoneY;
-			w = 0.128906 * safezoneW;
-			h = 0.033 * safezoneH;
-		};
-
 		class ButtonClose: Life_RscButtonMenu
 		{
 			idc = -1;

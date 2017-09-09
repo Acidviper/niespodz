@@ -239,7 +239,11 @@ player createDiarySubject ["credits","Credits"];
 				Whiskey + Butelka = Butelkowana Whiskey<br/><br/>
 				6. Biżuteria<br/>
 				Oszlifowany Diament + Srebro = Biżuteria<br/><br/>
-
+				7. Uran<br/>
+                 a) Legalny<br/>
+                 Kopalnia uranu+Oczyszczanie Uranu+Przetwarzanie Uranu+Wzbogacanie uranu+Produkcja Prętów Paliwowych=Pręty Paliwowe<br/>
+				 b) Nielegalny<br/>
+                 Kopalnia uranu+Oczyszczanie Uranu+Przetwarzanie Uranu+Produkcja Brudnego Uranu= Brudny Uran (Skup u Dilera)<br/><br/>
 				"
 		]
 	];

@@ -14,7 +14,7 @@ sleep 15; //Wait in seconds before the credits start after player is in-game
 _role1 = "Witaj na nowej wersji";
 _role1names = ["NIESPODZIANEK"];
 _role2 = "Admini:";
-_role2names = ["Daktyl , Acid "];
+_role2names = ["Acid, Daktyl "];
 _role3 = "Pamiętaj o RP!";
 _role3names = ["A napewno bedziesz dobrze sie bawił!"];
 _role4 = "TeamSpeak3:";

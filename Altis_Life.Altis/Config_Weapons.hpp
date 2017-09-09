@@ -679,6 +679,7 @@ class WeaponShops {
 			{ "arifle_MX_SW_F", "", 189000, -1 },
 			{ "LMG_Mk200_F", "", 240000, -1 },
 			{ "LMG_Zafir_F", "", 390000, -1 },
+			{ "srifle_DMR_05_tan_f", "", 350000, -1 },
 			{ "srifle_DMR_06_camo_F", "", 400000, -1 },
             { "launch_RPG7_F", "", 240000, -1 },
 
@@ -722,6 +723,7 @@ class WeaponShops {
 			{ "100Rnd_65x39_caseless_mag_Tracer", "", 4900 },
 			{ "200Rnd_65x39_cased_Box_Tracer", "", 4900 },
 			{ "150Rnd_762x54_Box_Tracer", "", 4900 },
+			{ "10Rnd_93x64_DMR_05_Mag", "", 4900 },
 			{ "20Rnd_762x51_Mag", "", 4999 },
 			{ "RPG7_F", "", 150000 }
         };
