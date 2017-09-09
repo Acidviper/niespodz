@@ -58,7 +58,7 @@ if(life_firstSpawn) then {
 	life_firstSpawn = false;
 	[] spawn life_fnc_introCam;
 	[] call life_fnc_welcomeNotification;
-	playSound "intro";
+	playSound "welcomee";
 };
 [] call life_fnc_playerSkins;
 [] call life_fnc_hudSetup;

@@ -134,7 +134,7 @@ class CfgSounds
 	class welcome
 	{
 		name = "welcome";
-		sound[] = {"\sounds\intro.ogg", 1, 1};
+		sound[] = {"\sounds\welcomee.ogg", 1, 1};
 		titles[] = {};
 	};
 
