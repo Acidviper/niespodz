@@ -1,5 +1,5 @@
 /*
-*    Format:
+*    Format:dica
 *        level: ARRAY (This is for limiting items to certain things)
 *            0: Variable to read from
 *            1: Variable Value Type (SCALAR / BOOL / EQUAL)

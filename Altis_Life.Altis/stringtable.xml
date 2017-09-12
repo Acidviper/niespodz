@@ -157,7 +157,7 @@
       <Original>Skup Soli</Original>
     </Key>
     <Key ID="STR_Shop_Station_Coffee">
-      <Original>Kawiarnia</Original>
+      <Original>Kawiarnia złodziej lester</Original>
     </Key>
 	</Package>
    <Package name="Global">
@@ -227,7 +227,7 @@
       <Original>Teleport</Original>
     </Key>
     <Key ID="STR_Admin_TpHere">
-      <Original>Do Mnie</Original>
+      <Original>Do Mnied ica</Original>
     </Key>
     <Key ID="STR_Admin_Debug">
       <Original>Debug</Original>
@@ -856,7 +856,7 @@
   </Package>
   <Package name="Animals">
     <Key ID="STR_ANIM_Salema">
-      <Original>Salema</Original>
+      <Original>Salemadica</Original>
     </Key>
     <Key ID="STR_ANIM_Ornate">
       <Original>Dorada</Original>

@@ -358,6 +358,15 @@ class Life_Client_Core {
 		class weed {};
 	};
 
+	class Kamery
+	{
+		file = "core\kamery";
+		class kamera1 {};
+		class kamera2 {};
+		class kamera3 {};
+		class kamera4 {};	
+	};
+	
 	class Medical_System {
 		file = "core\medical";
 		class deathScreen {};

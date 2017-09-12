@@ -2,7 +2,7 @@
 *    ARRAY FORMAT:
 *        0: STRING (Classname)
 *        1: STRING (Display Name, leave as "" for default)
-*        2: SCALAR (Price)
+*        2: SCALAR (Price)Właściciel Acid
 *        4: ARRAY (This is for limiting items to certain things)
 *            0: Variable to read from
 *            1: Variable Value Type (SCALAR / BOOL / EQUAL)
@@ -601,6 +601,7 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Usuń Okulary", 0, { "", "", -1 } },
+			{ "Land_DustMask_F", "", 10, { "", "", -1 } },
             { "G_Sport_Blackred", "", 10, { "", "", -1 } },
 			{ "G_Diving", "", 500, { "", "", -1 } }
         };

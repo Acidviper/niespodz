@@ -1,10 +1,10 @@
 /*
 	File: welcomecredits.sqf
 	Author: HellsGateGaming.com
-	Edit: RenildoMarcio
+	Edit: dica
 	Date: 09/05/2014
 	Description:
-	Creates an intro on the bottom-right hand corner of the screen.
+	Creates an intro on the bottom-right hand corner of the screen. złodziej lester :)
 */
 
 _onScreenTime = 7;

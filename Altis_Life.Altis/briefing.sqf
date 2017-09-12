@@ -31,7 +31,7 @@ player createDiarySubject ["credits","Credits"];
 			"Poszanowanie życia i obrona własna",
 				"
 				1. Każdy obywatel ma obowiązek szanować życie swoje i kompanów, tj. wszelakie próby rambo będą uznawane za brak poszanowania życia i będą karane.<br/>
-				2. Jeśli obywatel został napadnięty i napastnik grozi mubronią palną -musi się poddać, jeśli spróbuje dobyć broni (napastnik jest z nim w bezpośrednim kontakcie wzrokowym i nie dzieli ich żadna osłona np. mur, domek) napastnik ma prawo go zabić i oskarżyć o nieposzanowanie życia.<br/>
+				2. lester złodziej napadnięty i napastnik grozi mubronią palną -musi się poddać, jeśli spróbuje dobyć broni (napastnik jest z nim w bezpośrednim kontakcie wzrokowym i nie dzieli ich żadna osłona np. mur, domek) napastnik ma prawo go zabić i oskarżyć o nieposzanowanie życia.<br/>
 				3. Prawo do obrony własnej respektowane jest tylko, jeśli postrzału / mordu dokonano w obronie życia swojego lub kompanów, by uniknąć konsekwencji należy niezwłocznie powiadomić policję, przedstawić sytuację i posiadać świadków.<br/>
 				4. Wyjątkiem od reguł są strefy czerwone, inaczej zwane strefą RDM.<br/>
 				5. Zabronione jest używanie pojazdu do tzw kamikadze, chyba, że posiada się kamizelkę samobójcy i zamierza się wysadzić jako terrorysta -wtedy atak uznawany jest za użycie samochodu pułapki.<br/><br/>
@@ -41,7 +41,7 @@ player createDiarySubject ["credits","Credits"];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"Posterunki policji",
+			"Posterunki Plik Acid",
 				"
 				1. Strefa niebieska jest traktowana jako strefa zielona, zakazane jest tam pvp, strzelanie i temu podobne.<br/>
 				2. Cywile w celu załatwienia spraw z policją, złożenia zgłoszenia lub czegokolwiek mają prawo wejść jedynie na teren posterunku Kavala.<br/>

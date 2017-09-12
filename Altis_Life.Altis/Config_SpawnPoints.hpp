@@ -1,5 +1,6 @@
 /*
 *    Format:
+       Plik Acid
 *        license: ARRAY (This is for limiting spawn to certain things)
 *           0: License Name
 *           1: License Check Type

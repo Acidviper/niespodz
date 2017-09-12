@@ -26,6 +26,7 @@ class CarShops {
 			{ "I_C_Van_01_transport_brown_F", { "", "", -1 } },
 			{ "I_C_Van_01_transport_F", { "", "", -1 } },
 		    { "I_C_Van_01_transport_olive_F", { "", "", -1 } },
+			{ "C_IDAP_Van_02_transport_F", { "", "", -1 } },
         };
     };
 
@@ -156,6 +157,7 @@ class CarShops {
             { "C_SUV_01_F", { "life_medicLevel", "SCALAR", 1 } },
 			{ "C_Van_01_box_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
+			{ "C_IDAP_Van_02_medevac_F", { "", "", -1 } },
             { "I_Truck_02_medical_F", { "life_medicLevel", "SCALAR", 2 } }, //Zamak Medical
 			{ "C_Truck_02_box_F", { "life_medicLevel", "SCALAR", 3 } },
 			{ "I_MRAP_03_F", { "life_medicLevel", "SCALAR", 4 } },
@@ -502,7 +504,11 @@ class LifeCfgVehicles {
         vItemSpace = 50;
         licenses[] = { {""}, {"license_cop_driverC"}, {""}, {""} };
         price = 1000000;
-        textures[] = { };
+        textures[] = {
+            { "Policja", "cop", {
+                "textures\Policja\ALN_prowler.paa"
+				} }
+        };
     };
 
     class C_Offroad_01_F {
@@ -546,9 +552,7 @@ class LifeCfgVehicles {
             { "Policja", "cop", {
                 "textures\Policja\cop_offroad.paa"
             } },
-			{ "Policja", "cop", {
-                "textures\Policja\ALN_police_offroad.paa"
-            } },
+			
             { "Medyczny", "med", {
                 "textures\Medycy\offroad_Medyk.paa"
             } },
@@ -563,11 +567,8 @@ class LifeCfgVehicles {
         licenses[] = { {"license_civ_driver"}, {"license_cop_driverC"}, {"license_med_driverM"}, {""} };
         price = 20000;
         textures[] = {
-            { "Czarny", "cop", {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa",
-				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa",
-				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa",
-				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa"
+			{ "Policja", "cop", {
+                "textures\Policja\ALN_black.paa"
             } },
             { "Niebieski", "civ", {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa",
@@ -670,9 +671,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Policja", "cop", {
                 "textures\Policja\cop_hatchbacksport.paa"
-            } },
-			{ "Policja", "cop", {
-                "textures\Policja\ALN_police_hatchback.paa"
             } },
             { "Medyczny", "med", {
                "textures\Medycy\medic_hatchback.paa"
@@ -809,6 +807,20 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
+	class C_IDAP_Van_02_medevac_F {
+        vItemSpace = 150;
+        licenses[] = { {""}, {""}, {"license_med_driverM"}, {""} };
+        price = 5000;
+        textures[] = {};
+    }; 
+	
+	class C_IDAP_Van_02_transport_F {
+        vItemSpace = 150;
+        licenses[] = { {"license_civ_driver"}, {""}, {""}, {""} };
+        price = 85000;
+        textures[] = {};
+    }; 
+	
     class C_SUV_01_F {
         vItemSpace = 50;
         licenses[] = { {"license_civ_driver"}, {"license_cop_driverC"}, {"license_med_driverM"}, {""} };
@@ -846,9 +858,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Policja", "cop", {
                 "textures\Policja\cop_suv.paa"
-            } },
-			{ "Policja", "cop", {
-                "textures\Policja\ALN_police_suv.paa"
             } },
 			{ "special", "cop", {
                 "textures\Policja\suvbope.paa"
@@ -1110,7 +1119,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 250;
-        licenses[] = { {"license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
+        licenses[] = { {"license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
         price = 500000;
         textures[] = {
             { "Rebeliancka", "civ", {

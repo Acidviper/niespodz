@@ -2,7 +2,7 @@
 #define false 0
 
 /*
-    Master settings for various features and functionality
+    Master settings for various features and functionality Plik Acid
 */
 class Life_Settings {
 /* Logging and Security Settings*/

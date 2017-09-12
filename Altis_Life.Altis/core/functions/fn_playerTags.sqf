@@ -79,8 +79,8 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
                         case 8: {"Komisarz"};
                         case 9: {"Nadkomisarz"};
                         case 10: {"Inspektor"};
-                        case 11: {"Nadinspektor"};
-                        case 12: {"Gen.Inspektor"};
+                        case 11: {"Zastepca Komendanta"};
+                        case 12: {"Komendant"};
                         default {"Policja"};
                         }]};
 					case (side _x isEqualTo independent && {!isNil {_x getVariable "rank"}}): {format["<img image='%1' size='1'></img><t color='#fe2020'> %3</t> %2",switch ((_x getVariable "rank")) do {

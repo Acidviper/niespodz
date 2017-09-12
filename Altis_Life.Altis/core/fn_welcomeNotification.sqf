@@ -27,7 +27,7 @@ _text2 = _display displayCtrl 1102;
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\logo.jpg' /></t><br /><br />";
 _message = _message + "WWW:<br />";
-_message = _message + " <a href='http://aln.ct8.pl/' color='#56BDD6'>Niespodzianki wersja 1.1</a> - Nasze Forum.<br />";
+_message = _message + " <a href='http://aln.ct8.pl/' color='#56BDD6'>Niespodzianki wersja 1.11</a> - Nasze Forum.<br />";
 _message = _message + "Adres Teamspeak'a: stabilne.it<br /><br />";
 _message = _message + "Zmiany:Textury, Kasyno, poprawiony market-ekonomia,przycisk wypłać z gangu, <br />";
 _message = _message + "Zakaz powrotów na akcję po śmierci :)<br />";
