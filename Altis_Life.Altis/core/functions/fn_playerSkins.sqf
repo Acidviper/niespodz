@@ -19,6 +19,10 @@ switch(playerSide) do {
 			if(uniform player == "U_B_CombatUniform_mcam") then {
 				player setObjectTextureGlobal [0, "textures\Uniform\rebelka.paa"];
 			};
+			
+			if(uniform player == "U_C_Scientist") then {
+				player setObjectTextureGlobal [0, "textures\Uniform\nuke.jpg"];
+			};
 		};
 	};
 
@@ -31,8 +35,8 @@ switch(playerSide) do {
 			player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform.paa"];
 		};
 		if(uniform player == "U_B_CombatUniform_mcam_worn") then {
-			if((call life_coplevel) < 7) then {player setObjectTextureGlobal [0, "textures\Uniform\inspektor.paa"];};
-			if((call life_coplevel) > 6) then {player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform1.paa"];};
+			if((call life_coplevel) < 6) then {player setObjectTextureGlobal [0, "textures\Uniform\inspektor.paa"];};
+			if((call life_coplevel) > 5) then {player setObjectTextureGlobal [0, "textures\Uniform\cop_uniform1.paa"];};
 		};
 		if(uniform player == "U_B_CombatUniform_mcam_vest") then {
 			player setObjectTextureGlobal [0, "textures\Uniform\boa_uniform.paa"];

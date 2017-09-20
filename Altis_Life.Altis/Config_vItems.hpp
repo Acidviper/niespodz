@@ -374,7 +374,7 @@ class VirtualItems {
         variable = "storageSmall";
         displayName = "STR_Item_StorageBS";
         weight = 5;
-        buyPrice = 500000;
+        buyPrice = 50000;
         sellPrice = 1;
         illegal = false;
         edible = -1;
@@ -385,7 +385,7 @@ class VirtualItems {
         variable = "storageBig";
         displayName = "STR_Item_StorageBL";
         weight = 10;
-        buyPrice = 1000000;
+        buyPrice = 100000;
         sellPrice = 1;
         illegal = false;
         edible = -1;
@@ -408,8 +408,8 @@ class VirtualItems {
         variable = "bottledbeer";
         displayName = "STR_Item_BottledBeer";
         weight = 2;
-        buyPrice = 1000;
-        sellPrice = 1000;
+        buyPrice = 8000;
+        sellPrice = 6500;
         illegal = false;
         edible = -1;
         icon = "";
@@ -420,7 +420,7 @@ class VirtualItems {
         displayName = "STR_Item_Whiskey";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 1000;
+        sellPrice = 5000;
         illegal = false;
         edible = -1;
         icon = "";
@@ -431,7 +431,7 @@ class VirtualItems {
         displayName = "STR_Item_Beer";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 1000;
+        sellPrice = 2000;
         illegal = false;
         edible = -1;
         icon = "";
@@ -586,7 +586,7 @@ class VirtualItems {
         displayName = "STR_Item_Guma";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 5800;
+        sellPrice = 5700;
         illegal = false;
         edible = -1;
           icon = "icons\guma.paa";
@@ -1193,7 +1193,7 @@ class VirtualItems {
         displayName = "STR_Item_buran";
         weight = 8;
         buyPrice = -1;
-        sellPrice = 46000;
+        sellPrice = 40000;
         illegal = true;
         edible = -1;
         icon = "icons\uran3.paa";
@@ -1223,7 +1223,7 @@ class VirtualItems {
         displayName = "STR_Item_jewelery";
         weight = 5;
         buyPrice = -1;
-        sellPrice = 50000;
+        sellPrice = 41000;
         illegal = false;
         edible = -1;
         icon = "icons\schmuck.paa";

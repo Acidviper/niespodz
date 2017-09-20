@@ -206,7 +206,7 @@ switch (_mode) do {
 	};
 	
 	case "w1": {
-		life_01_scam camSetPos [11666.23,11901.30,11.77];
+		life_01_scam camSetPos [2311.97,22279.2,72.86];
 		life_01_scam camSetTarget [-35482.18,-53333.70,-59306.26];
 		life_01_scam camCommit 0;
 	};

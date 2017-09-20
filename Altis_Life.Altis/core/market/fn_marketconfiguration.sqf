@@ -46,7 +46,24 @@ life_market_resources = [
 		]
 	],
 
-	["jewelery", 22000, 12000, 32000, 5, 2,
+	["jewelery", 22000, 12000, 41000, 5, 2,
+		[
+			["marijuana",1],
+			["cocaine_processed",1],
+			["heroin_processed",1],
+			["bottledwhiskey",1],
+			["bottledshine",1],
+			["whiskey",1],
+			["beer",1],
+			["moonshine",1],
+			["turtleRaw",1],
+			["uranpre",1],
+			["buran",1],
+			["guma",1]
+		]
+	],
+	
+	["guma", 3200, 1700, 5700, 5, 2,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -169,7 +186,8 @@ life_market_resources = [
 			["cement",1],
 			["tobacco_processed",1],
 			["goldbar",1],
-			["bottles",1]
+			["bottles",1],
+			["guma",1]
 		]
 	],
 
@@ -185,7 +203,8 @@ life_market_resources = [
 			["cement",1],
 			["tobacco_processed",1],
 			["goldbar",1],
-			["bottles",1]
+			["bottles",1],
+			["guma",1]
 		]
 	],
 
@@ -201,7 +220,8 @@ life_market_resources = [
 			["cement",1],
 			["tobacco_processed",1],
 			["goldbar",1],
-			["bottles",1]
+			["bottles",1],
+			["guma",1]
 		]
 	],
 
@@ -217,11 +237,12 @@ life_market_resources = [
 			["cement",1],
 			["tobacco_processed",1],
 			["goldbar",1],
-			["bottles",1]
+			["bottles",1],
+			["guma",1]
 		]
 	],
 
-	["bottledwhiskey", 6000, 2500, 7500, 3, 1,
+	["bottledwhiskey", 8500, 3500, 13000, 300, 1,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -236,7 +257,7 @@ life_market_resources = [
 		]
 	],
 
-	["bottledbeer", 4500, 2500, 6500, 3, 1,
+	["bottledbeer", 4500, 2500, 7500, 3, 1,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -251,7 +272,7 @@ life_market_resources = [
 		]
 	],
 
-	["whiskey", 2500, 100, 5500, 2, 1,
+	["whiskey", 2500, 100, 5000, 2, 1,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -266,7 +287,7 @@ life_market_resources = [
 		]
 	],
 
-	["beer", 1000, 50, 4000, 2, 1,
+	["beer", 1000, 50, 2000, 2, 1,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -378,7 +399,7 @@ life_market_resources = [
 		]
 	],
 
-	["uranpre", 37500, 28000, 59000, 15, 10,
+	["uranpre", 39500, 23000, 59000, 150, 10,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -393,7 +414,7 @@ life_market_resources = [
 		]
 	],
 
-	["buran", 26000, 20000, 46000, 15, 10,
+	["buran", 25000, 20000, 40000, 15, 10,
 		[
 			["s_pro",1],
 			["oil_processed",1],

@@ -93,7 +93,7 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
                         default {"textures\Medycy\rangi\ordynator.paa"};
                         },_x getVariable ["realname",name _x],
                         switch ((_x getVariable "rank")) do {
-                        case 1: {"Mł.Ratownik"};
+                        case 1: {"Mechanik"};
                         case 2: {"Ratownik"};
                         case 3: {"St.Ratownik"};
                         case 4: {"Lekarz"};

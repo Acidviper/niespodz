@@ -1,5 +1,5 @@
  /*
-*    class:
+*    class:acid
 *        variable = Variable Name
 *        displayName = License Name
 *        price = License Price
@@ -366,30 +366,6 @@ class Licenses {
 	class reb_szturm3 {
         variable = "reb_szturm3";
         displayName = "STR_License_Reb_szturm3";
-        price = 10000000;
-        illegal = false;
-        side = "civ";
-    };
-
-	class reb_transport1 {
-        variable = "reb_transport1";
-        displayName = "STR_License_Reb_transport1";
-        price = 5000000;
-        illegal = false;
-        side = "civ";
-    };
-
-	class reb_transport2 {
-        variable = "reb_transport2";
-        displayName = "STR_License_Reb_transport2";
-        price = 10000000;
-        illegal = false;
-        side = "civ";
-    };
-
-	class reb_transport3 {
-        variable = "reb_transport3";
-        displayName = "STR_License_Reb_transport3";
         price = 10000000;
         illegal = false;
         side = "civ";

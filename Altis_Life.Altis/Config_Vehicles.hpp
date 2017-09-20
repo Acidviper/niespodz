@@ -146,7 +146,7 @@ class CarShops {
             { "C_Van_01_fuel_F", { "", "", -1 } }, //Fuel Truck
             { "I_Truck_02_fuel_F", { "", "", -1 } }, //Zamak Fuel
             { "B_Truck_01_fuel_F", { "", "", -1 } }, //HEMTT Fuel
-			{ "B_Heli_Light_01_dynamicLoadout_F", { "", "", -1 } }
+			{ "B_Heli_Transport_01_F", { "", "", -1 } }
         };
     };
 
@@ -225,9 +225,10 @@ class CarShops {
         vehicles[] = {
             { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 1 } }, //Humming
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 3 } }, //Orca
-            { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 5 } }, //GhostHawk
+            { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 9 } }, //GhostHawk
             { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 4 } }, //Hellcat
 			{ "I_Heli_Transport_02_F", { "life_coplevel", "SCALAR", 4 } },
+			{ "B_Heli_Transport_03_unarmed_F", { "life_coplevel", "SCALAR", 7 } },
 			{ "B_T_VTOL_01_vehicle_F", { "life_coplevel", "SCALAR", 11 } }
         };
     };
@@ -317,7 +318,7 @@ class LifeCfgVehicles {
 
 	class B_Truck_01_ammo_F {
         vItemSpace = 500;
-        licenses[] = { {"license_cop_transport3"}, {"license_cop_transport2"}, {""}, {""} };
+        licenses[] = { {""}, {"license_cop_driverC"}, {""}, {""} };
         price = 45000;
         textures[] = {};
     };
@@ -419,15 +420,15 @@ class LifeCfgVehicles {
 
     class B_G_Offroad_01_F {
         vItemSpace = 65;
-        licenses[] = { {"license_civ_adv_rebel","license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
         price = 12500;
         textures[] = { };
     };
 
     class B_G_Offroad_01_armed_F {
         vItemSpace = 65;
-        licenses[] = { {"license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
-        price = 2000000;
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
+        price = 2800000;
         textures[] = { };
     };
 
@@ -483,7 +484,7 @@ class LifeCfgVehicles {
 
     class O_MRAP_02_F {
         vItemSpace = 50;
-        licenses[] = { {"license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4"}, {""}, {""}, {""} };
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4"}, {""}, {""}, {""} };
         price = 6000000;
         textures[] = {
             { "Czerwony", "civ", {
@@ -495,7 +496,7 @@ class LifeCfgVehicles {
 
     class B_T_LSV_01_unarmed_F {
         vItemSpace = 50;
-        licenses[] = { {"license_civ_adv_rebel","license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4",,"license_civ_zolnierz"}, {""}, {""}, {""} };
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4",,"license_civ_zolnierz"}, {""}, {""}, {""} };
         price = 2000000;
         textures[] = { };
     };
@@ -746,22 +747,22 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class O_Heli_Transport_04_box_F {
         vItemSpace = 600;
-        licenses[] = { {"license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
-        price = 2500000;
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
+        price = 3900000;
         textures[] = {};
     };
 
     class O_Heli_Transport_04_F {
         vItemSpace = 100;
-        licenses[] = { {"license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
-        price = 500000;
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
+        price = 1800000;
         textures[] = {};
     };
 
     class O_Heli_Transport_04_bench_F {
         vItemSpace = 150;
-        licenses[] = { {"license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
-        price = 600000;
+        licenses[] = { {"license_civ_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
+        price = 2600000;
         textures[] = {};
     };
 
@@ -949,7 +950,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_Heli_Light_01_F {
         vItemSpace = 80;
-        licenses[] = { {"license_civ_pilot","license_civ_reb_adv_rebel","license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_rebel","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
+        licenses[] = { {"license_civ_pilot","license_civ_reb_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_rebel","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
         price = 500000;
         textures[] = {
             { "Policja", "cop", {
@@ -1002,9 +1003,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_Heli_Transport_01_F {
         vItemSpace = 150;
-        licenses[] = { {""}, {"license_cop_transport2","license_cop_transport3"}, {""}, {""} };
-        price = 2500000;
+        licenses[] = { {"license_civ_don4"}, {"license_cop_cAir"}, {"license_cop_boa"}, {""} };
+        price = 24000000;
         textures[] = {
+			{ "Zielony", "civ", {
+                "textures\cYWILE\ghosthawk_0_v1.paa",
+				"textures\cYWILE\ghosthawk_1_v1.paa"
+            } },
             { "Policja", "cop", {
                 "textures\Policja\ghosthawk_01.paa",
                 "textures\Policja\ghosthawk_02.paa"
@@ -1014,7 +1019,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_T_VTOL_01_infantry_F {
         vItemSpace = 50;
-        licenses[] = { {""}, {"license_cop_transport3"}, {""}, {""} };
+        licenses[] = { {""}, {"license_cop_cAir"}, {""}, {""} };
         price = 2000000;
         textures[] = {
             { "Policja", "cop", {
@@ -1028,7 +1033,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_Heli_Light_01_armed_F {
         vItemSpace = 50;
-        licenses[] = { {""}, {"license_cop_transport3"}, {""}, {""} };
+        licenses[] = { {""}, {"license_cop_cAir"}, {""}, {""} };
         price = 2000000;
         textures[] = {
             { "Polcja", "cop", {
@@ -1046,7 +1051,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class I_Heli_Transport_02_F {
         vItemSpace = 500;
-        licenses[] = { {"license_civ_pilot","license_civ_reb_adv_rebel","license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_rebel","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
+        licenses[] = { {"license_civ_pilot","license_civ_reb_adv_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_rebel","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
         price = 2000000;
         textures[] = {
 			{ "Ion", "civ", {
@@ -1103,11 +1108,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_Heli_Transport_03_unarmed_F {
         vItemSpace = 700;
-        licenses[] = { {"license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {""}, {""}, {""} };
+        licenses[] = { {"license_civ_rebel""license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {""}, {""} };
         price = 9500000;
         textures[] = {
             { "Zielony", "civ", {
                 "\a3\air_f_heli\heli_transport_03\data\heli_transport_03_ext01_co.paa","\a3\air_f_heli\heli_transport_03\data\heli_transport_03_ext02_co.paa"
+            } },
+			{ "Policja", "cop", {
+                "textures\Policja\huron1.paa",
+				"textures\Policja\huron2.paa"
             } }
 		};
     };
@@ -1119,8 +1128,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 250;
-        licenses[] = { {"license_civ_reb_transport1","license_civ_reb_transport2","license_civ_reb_transport3","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
-        price = 500000;
+        licenses[] = { {"license_civ_rebel","license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4","license_civ_zolnierz"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
+        price = 900000;
         textures[] = {
             { "Rebeliancka", "civ", {
                 "textures\Cywile\rebel_orca.paa"
@@ -1164,8 +1173,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class I_Heli_light_03_unarmed_F {
         vItemSpace = 350;
-        licenses[] = { {"license_civ_don1","license_civ_don2","license_civ_don3","license_civ_don4"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
-        price = 4100000;
+        licenses[] = { {"license_civ_don4"}, {"license_cop_cAir"}, {"license_med_mAir"}, {""} };
+        price = 22000000;
         textures[] = {
             { "Medyczny", "med", {
                 "textures\Medycy\medic_hellcat.paa"

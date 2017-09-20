@@ -1423,6 +1423,112 @@ class WeaponShops {
     };
 
     //Cop Shops
+	
+	class cop_boa {
+        name = "AT";
+        side = "cop";
+        license = "boa";
+        level[] = { "life_coplevel", "SCALAR", 6, "Musisz być w SPAP!" };
+        items[] = {
+			{ "hgun_P07_snds_F", "Paralizator", 1000, -1 },
+			{ "arifle_SDAR_F", "", 1000, -1 },
+			{ "arifle_SPAR_01_blk_F", "", 1000, -1 },
+			{ "arifle_MXC_Black_F", "", 1000, -1 },
+			{ "arifle_MX_Black_F", "", 1000, -1 },
+			{ "arifle_Katiba_F", "", 1000, -1 },
+			{ "arifle_ARX_blk_F", "", 1000, -1},
+			{ "arifle_AK12_GL_F", "", 1000, -1},
+            { "arifle_AK12_F", "", 1000, -1 },
+			{ "arifle_MXM_Black_F", "", 1000, -1 },
+			{ "srifle_EBR_F", "", 1000, -1 },
+            { "arifle_SPAR_02_blk_F", "", 1000, -1 },
+			{ "srifle_DMR_03_F", "", 1000, -1},
+			{ "arifle_SPAR_03_blk_F", "", 1000, -1 },
+			{ "srifle_DMR_06_camo_F", "", 1000, -1},
+			{ "srifle_DMR_02_F","",1000,-1},
+			{ "srifle_DMR_05_blk_F","",1000,-1},
+			{ "LMG_MK200_F", "", 1000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 1000, -1 },
+			{ "LMG_03_F", "", 1000, -1},
+			{ "arifle_CTARS_blk_F","",1000,-1},
+			{ "LMG_Zafir_F","",1000,-1},
+			{ "launch_B_Titan_tna_F","",1000,-1},
+			{ "launch_RPG32_ghex_F","",1000,-1},
+			{ "launch_NLAW_F","",1000,-1},
+
+            { "10Rnd_50BW_Mag_F", "type 115", 100, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1000, -1 },
+			{ "SmokeShellBlue", "Gaz łzawiący", 100, -1 },
+			{ "1Rnd_SmokeBlue_Grenade_shell", "Gaz łzawiący granatnik", 100, -1 },
+            { "B_UavTerminal", "", 1000, -1 },
+            { "Rangefinder", "", 1000, -1 },
+			{ "NVGoggles_OPFOR", "", 1000, -1 },
+            { "ItemGPS", "", 100, -1 },
+            { "ItemMap", "", 100, -1 },
+            { "ItemRadio", "", 100, -1 },
+            { "ItemCompass", "", 100, -1 },
+            { "ItemWatch", "", 100, -1 },
+            { "FirstAidKit", "", 1000, -1 },
+            { "Medikit", "", 1000, -1 }
+			
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "10Rnd_50BW_Mag_F", "", 25 },
+			{ "30Rnd_9x21_Mag", "", 50 },
+            { "20Rnd_556x45_UW_mag", "", 50 },
+			{ "30Rnd_556x45_Stanag", "", 50 },
+			{ "30Rnd_45ACP_Mag_SMG_01", "", 50 },
+			{ "20Rnd_762x51_Mag", "", 200 },
+			{ "100Rnd_580x42_Mag_F", "", 700 },
+			{ "100Rnd_65x39_caseless_mag", "", 700 },
+			{ "200Rnd_556x45_Box_F", "", 4900 },
+            { "150Rnd_556x45_Drum_Mag_F", "", 50 },
+			{ "150Rnd_762x54_Box","",6000},
+			{ "30Rnd_65x39_caseless_mag", "", 100 },
+			{ "30Rnd_762x39_Mag_F","",500},
+			{ "1Rnd_SmokeBlue_Grenade_shell","gaz łzawiący",2000},
+			{ "200Rnd_65x39_cased_Box", "", 4900 },
+			{ "100Rnd_580x42_Mag_F","",2900},
+			{ "10Rnd_338_Mag","",500},
+			{ "10Rnd_93x64_DMR_05_Mag","",500},
+			{ "7Rnd_408_Mag","",500},
+			{ "10Rnd_50BW_Mag_F", "", 300 },
+			{ "RPG32_F","",100000},
+            { "RPG32_HE_F","",300000},
+			{ "NLAW_F","",300000}
+        };
+		accs[] = {
+			{ "optic_Aco", "", 240 },
+			{ "optic_ACO_grn", "", 240 },
+			{ "optic_Aco_smg", "", 240 },
+			{ "optic_ACO_grn_smg", "", 240 },
+			{ "optic_Holosight", "", 300 },
+			{ "optic_Holosight_smg", "", 300 },
+			{ "optic_Hamr", "", 400 },
+			{ "optic_Arco_blk_F", "", 420 },
+			{ "optic_ERCO_blk_F", "", 420 },
+			{ "optic_MRCO", "", 440 },
+			{ "optic_DMS", "", 490 },
+			{ "optic_LRPS", "", 490 },
+			{ "optic_NVS", "", 510 },
+			{ "optic_KHS_blk", "", 690 },
+			{ "muzzle_snds_65_TI_blk_F", "", 690 },
+			{ "muzzle_snds_H", "", 10000, -1 },
+			{ "muzzle_snds_L", "", 10000, -1 },
+			{ "muzzle_snds_M", "", 10000, -1 },
+			{ "muzzle_snds_B", "", 10000, -1 },
+			{ "muzzle_snds_338_black", "", 10000, -1 },
+			{ "muzzle_snds_93mmg", "", 10000, -1 },
+			{ "muzzle_snds_58_blk_F", "", 10000, -1 },
+			{ "muzzle_snds_93mmg", "", 10000, -1 },
+			{ "muzzle_snds_93mmg", "", 10000, -1 },
+
+			{ "acc_flashlight", "", 1000, -1 },
+			{ "acc_pointer_IR", "", 2000, -1 },
+			{ "bipod_01_F_blk", "", 1000, -1 }
+        };
+    };
 
     class cop_kadet {
         name = "Zaopatrzenie Kadeta";

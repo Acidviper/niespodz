@@ -1,6 +1,6 @@
 /*
 	File: init.sqf
-	Author:
+	Author:lester ty złodzieju
 
 	Description:
 
@@ -12,9 +12,9 @@ setTerrainGrid 50;
 [] spawn life_fnc_autoMessages; // Message Auto
 [] execVM "scripts\status_bar\PlayerBar.sqf";
 [] execVM "welcomeMessage.sqf";
-[] execVM "scripts\fog.sqf";
 0 = execVM "IgiLoad\IgiLoadInit.sqf";
 [] execVM "scripts\teargas.sqf";
+[] execVM "scripts\fn_weather.sqf"; 
 
 
 if(isDedicated && isNil("life_market_prices")) then
