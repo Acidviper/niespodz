@@ -17,7 +17,7 @@ class Life_Settings {
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
-    saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","scalpel","cprKit" }; //Array of virtual items that can be saved on your player.
+    saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","scalpel","lizak","morphine","cprKit" }; //Array of virtual items that can be saved on your player.
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = false; //Save civilian location?
@@ -43,8 +43,8 @@ class Life_Settings {
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 60; //How many seconds a player should wait, before being able to respawn.
-	respawn_timer_med = 300; //How many seconds a player should wait, before being able to respawn.
+    respawn_timer = 50; //How many seconds a player should wait, before being able to respawn.
+	respawn_timer_med = 400; //How many seconds a player should wait, before being able to respawn.
 
     /* Clothing System Configurations */
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
@@ -83,17 +83,17 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 20000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_fee = 30000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
    /* Paycheck & Bank System Configurations */
-    bank_cop = 60000; //Amount of cash in bank for new cops
-    bank_civ = 60000; //Amount of cash in bank for new civillians
-    bank_med = 50000; //Amount of cash in bank for new medics
+    bank_cop = 90000; //Amount of cash in bank for new cops
+    bank_civ = 90000; //Amount of cash in bank for new civillians
+    bank_med = 90000; //Amount of cash in bank for new medics
 
     paycheck_period = 5; //Scaled in minutes
-    paycheck_cop = 4000; //Payment for cops
-    paycheck_civ = 2000; //Payment for civillians
-    paycheck_med = 6500; //Payment for medics
+    paycheck_cop = 7000; //Payment for cops
+    paycheck_civ = 3000; //Payment for civillians
+    paycheck_med = 8500; //Payment for medics
 
     /* Player Job System Configurations */
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25" };
@@ -143,11 +143,12 @@ class Life_Settings {
 		vehicle_cop_seize_multiplier = .05;
 		
 		/* Channel 7 News Station Configurations */
-    news_broadcast_cost = 100000; //Cost for a player to send a news station broadcast.
-    news_broadcast_cooldown = 10; //Time in minutes that is required between news station broadcasts. (Default = 20 minutes)
-    news_broadcast_header_length = 100; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
-
-
+		news_broadcast_cost = 150000; //Preis für eine Nachricht im Fernsehen
+		news_broadcast_cooldown = 20; //Abklingzeit zwischen zwei Nachrichten. (Default = 20 minutes)
+		news_broadcast_header_length = 60; //Maximallänge der Überschrift. Alles darüber wird abgeschnitten. Hängt von der Schriftart, -größe und anderen Faktoren ab. Vorsicht beim Abändern!
+		cop_news_broadcast_cooldown = 5; //Abklingzeit zwischen zwei Nachrichten der Polizei
+		cop_news_broadcast_minimum_Rank = 5; //Benötigter Rang für Polizisten, um Nachricht zu senden
+ 
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
     crimes[] = {

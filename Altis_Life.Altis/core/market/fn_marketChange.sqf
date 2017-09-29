@@ -49,7 +49,7 @@ switch(true) do
 	};
 	case (_rand <= 36): //6% Drogenpreis erhöhen
 	{
-		[0,format["News: drugs prices increased."]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+		[0,format["News: Narkotyki idą w górę."]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 		
 		//Erhöhe Marktpreis mit marketSell
 		["marijuana", [15,30] call life_fnc_randomRound, true] call life_fnc_marketBuy; 
@@ -80,7 +80,7 @@ switch(true) do
 	};
 	case (_rand <= 60): //4% Goldpreis sinkt
 	{
-		[0,format["News: goldbar price decreased."]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+		[0,format["News: Spadło złoto."]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 		
 		["goldbar", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell; 
 		
@@ -96,7 +96,7 @@ switch(true) do
 	};
 	case (_rand <= 74): //6% Goldpreis erhöht sich
 	{
-		[0,format["News: goldbar price increased."]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+		[0,format["News: Złoto drożeje."]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 		
 		["goldbar", [15,30] call life_fnc_randomRound, true] call life_fnc_marketBuy; 
 		
@@ -104,7 +104,7 @@ switch(true) do
 	};
 	case (_rand <= 80): //6% Drogenpreis niedriger
 	{
-		[0,format["News: drugs prices decreased"]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+		[0,format["News: Cena narkotyków spada"]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 		
 		//Erhöhe Marktpreis mit marketSell
 		["marijuana", [15,30] call life_fnc_randomRound, true] call life_fnc_marketSell; 

@@ -14,7 +14,7 @@ life_market_resources = [
 
 	// Default İsler
 
-	["oil_processed", 5200, 300, 6250, 3, 1,
+	["oil_processed", 8000, 300, 8250, 3, 1,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -30,7 +30,7 @@ life_market_resources = [
 		]
 	],
 
-	["diamond_cut", 5500, 450, 7500, 5, 2,
+	["diamond_cut", 9100, 450, 10000, 5, 2,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -46,7 +46,7 @@ life_market_resources = [
 		]
 	],
 
-	["jewelery", 22000, 12000, 41000, 5, 2,
+	["jewelery", 39000, 12000, 42000, 5, 2,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -63,7 +63,7 @@ life_market_resources = [
 		]
 	],
 	
-	["guma", 3200, 1700, 5700, 5, 2,
+	["guma", 6200, 2700, 6700, 5, 2,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -79,7 +79,7 @@ life_market_resources = [
 		]
 	],
 
-	["copper_refined", 1900, 190, 2500, 2, 1,
+	["copper_refined", 2500, 890, 2900, 2, 1,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -94,7 +94,7 @@ life_market_resources = [
 		]
 	],
 
-	["iron_refined", 2100, 350, 4250, 3, 1,
+	["iron_refined", 4000, 1500, 4600, 3, 1,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -110,7 +110,7 @@ life_market_resources = [
 		]
 	],
 	
-	["tobacco_processed", 1000, 450, 1200, 3, 1,
+	["tobacco_processed", 2500, 450, 3200, 3, 1,
 		[
 			["marijuana",1],
 			["cocaine_processed",1],
@@ -126,7 +126,7 @@ life_market_resources = [
 		]
 	],
 
-	["salt_refined", 3400, 140, 3950, 2, 1,
+	["salt_refined", 4500, 1400, 4950, 2, 1,
 		[
             ["marijuana",1],
 			["cocaine_processed",1],
@@ -142,7 +142,7 @@ life_market_resources = [
 		]
 	],
 
-	["glass", 3500, 1250, 4600, 2, 1,
+	["glass", 4000, 1250, 5600, 2, 1,
 		[
             ["marijuana",1],
 			["cocaine_processed",1],
@@ -158,7 +158,7 @@ life_market_resources = [
 		]
 	],
 
-	["cement", 2700, 1500, 4200, 2, 1,
+	["cement", 4700, 1500, 5200, 2, 1,
 		[
             ["marijuana",1],
 			["cocaine_processed",1],
@@ -174,7 +174,7 @@ life_market_resources = [
 		]
 	],
 
-	["goldBar", 95000, 30000, 125000, 2, 1,
+	["goldBar", 125000, 30000, 190000, 2, 1,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -191,7 +191,7 @@ life_market_resources = [
 		]
 	],
 
-	["marijuana", 5000, 2200, 9000, 10, 7,
+	["marijuana", 7000, 2200, 10000, 10, 7,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -208,7 +208,7 @@ life_market_resources = [
 		]
 	],
 
-	["cocaine_processed", 9000, 4500, 14000, 15, 10,
+	["cocaine_processed", 15000, 4500, 16000, 15, 10,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -225,7 +225,7 @@ life_market_resources = [
 		]
 	],
 
-	["heroin_processed", 6500, 2500, 12000, 15, 10,
+	["heroin_processed", 13000, 2500, 15000, 15, 10,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -392,14 +392,14 @@ life_market_resources = [
 		]
 	],
 
-	["turtle_Raw", 25000, 12500, 35000, 3, 1,
+	["turtle_Raw", 26000, 12500, 35000, 3, 1,
 		[
 			["buran",1],
 			["uranpre",1]
 		]
 	],
 
-	["uranpre", 39500, 23000, 59000, 150, 10,
+	["uranpre", 62500, 23000, 79000, 150, 10,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -414,7 +414,7 @@ life_market_resources = [
 		]
 	],
 
-	["buran", 25000, 20000, 40000, 15, 10,
+	["buran", 45000, 18000, 50000, 15, 10,
 		[
 			["s_pro",1],
 			["oil_processed",1],
@@ -430,7 +430,7 @@ life_market_resources = [
 		]
 	],
 
-	["s_pro", 1800, 650, 2600, 2, 1,
+	["s_pro", 5800, 650, 6000, 2, 1,
 	    [
 			["oil_processed",1],
 			["diamond_cut",1],
